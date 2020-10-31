@@ -19,7 +19,7 @@ export default function IndexPage() {
       <div>
         <section 
           aria-label="Schedule an Appointment to help your business." 
-          className="container mx-auto flex justify-center items-center min-h-screen mobile:min-h-0 mobile:h-auto mobile:flex-col mobile:justify-end mobile:pt-32"
+          className="container mx-auto flex justify-center items-center min-h-screen mobile:min-h-0 mobile:h-auto mobile:flex-col mobile:justify-end mobile:pt-32 mobile:pb-32"
         >
           <div className="z-10 transform -translate-y-16 mobile:translate-y-0 mobile:ml-4">
           <h1 className="text-5xl leading-tight font-extrabold tracking-wide ">
@@ -31,7 +31,7 @@ export default function IndexPage() {
           </button>
           </Link>
           </div>
-          <div className="mt-64 -ml-32 mobile:m-0 mobile:w-10/12">
+          <div className="mt-64 -ml-32 mobile:m-0 mobile:hidden">
             <Image 
               src="/target.png"
               alt="Icon of a bullseye"
@@ -96,7 +96,7 @@ export default function IndexPage() {
             </div>
 
             <Link href="#appointment">
-            <button className="z-10 transition duration-300 ease-in-out mt-16 smaller:mt-8 btn from-gray-200 to-gray-700 bg-gradient-to-r text-black font-bold py-2 px-16 rounded hover:shadow-xl mx-auto">
+            <button className="z-10 transition duration-300 ease-in-out mt-16 smaller:mt-8 btn from-gray-200 to-gray-700 bg-gradient-to-r text-black font-bold py-2 px-16 rounded hover:shadow-xl mx-auto mobile:mb-12">
                 Schedule and Appointment
               </button>
             </Link>
