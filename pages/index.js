@@ -138,7 +138,10 @@ export default function IndexPage() {
         >
           {/* <!-- Calendly inline widget begin --> */}
           {/* <h1 className="text-center text-5xl leading-tight font-extrabold">Schedule an Appointment</h1> */}
-          <InlineWidget url="https://calendly.com/consultaion_test/marketing" styles={{ height:"950px"}}/>
+          <div className="h-screen mobile:h-cmobile">
+          <InlineWidget url="https://calendly.com/consultaion_test/marketing" styles={{ height:"100%" }} />
+          </div>
+          
           {/* <!-- Calendly inline widget end --> */}
         </section>
       </div>

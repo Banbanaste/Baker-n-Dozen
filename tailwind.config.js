@@ -9,6 +9,9 @@ module.exports = {
       'smaller': {'max': '1024px'},
       'mobile': {'max': '776px'}
     },
+    height: {
+      cmobile: '842px'
+    },
     extend: {
       colors: {
         'accent-1': '#333',
