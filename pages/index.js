@@ -48,7 +48,7 @@ export default function IndexPage() {
           aria-label="More Information about our services."
           className="bg-dark min-h-screen max-w-screen mobile:py-12"
         >
-          <div className="container mx-auto flex flex-col  max-w-full justify-center relative overflow-x-hidden">
+          <div className="container mx-auto flex flex-col min-h-screen  max-w-full justify-center relative overflow-x-hidden">
             <div className="self-center mb-4 z-10 -mt-24 smaller:mt-0">
             <Image 
               src="/supercup.png"
@@ -138,7 +138,7 @@ export default function IndexPage() {
         >
           {/* <!-- Calendly inline widget begin --> */}
           {/* <h1 className="text-center text-5xl leading-tight font-extrabold">Schedule an Appointment</h1> */}
-          <div className="h-screen mobile:h-cmobile">
+          <div className="h-cmobile">
           <InlineWidget url="https://calendly.com/consultaion_test/marketing" styles={{ height:"100%" }} />
           </div>
           
