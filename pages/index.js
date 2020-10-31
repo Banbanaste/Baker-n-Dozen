@@ -48,7 +48,7 @@ export default function IndexPage() {
           aria-label="More Information about our services."
           className="bg-dark min-h-screen max-w-screen "
         >
-          <div className="container mx-auto flex flex-col h-screen max-w-full justify-center relative overflow-hidden">
+          <div className="container mx-auto flex flex-col  max-w-full justify-center relative overflow-x-hidden">
             <div className="self-center mb-4 z-10 -mt-24 smaller:mt-0">
             <Image 
               src="/supercup.png"
