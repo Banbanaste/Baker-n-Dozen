@@ -1,35 +1,69 @@
-// Next.js libraries
-import Image from 'next/image'
-
 // components
-import ContactBtn from "./contactSection"
+import InfoCard from "./infoCard";
 
-// calendly 
+// calendly
 import { openPopupWidget } from "react-calendly";
 
 export default function LandingPage() {
-  
-  return (
-    <section 
-          aria-label="Schedule an Appointment to help your business." 
-          className="container mx-auto flex justify-center items-center min-h-screen mobile:flex-col mobile:justify-center "
-        >
-          <div className="z-10 transform -translate-y-16 mobile:translate-y-16 mobile:ml-4">
-          <h1 className="text-5xl leading-tight font-extrabold tracking-wide mobile:text-4xl">
-            Create new <br />and profitable <br />revenue streams<br /> for your business.
-          </h1>
-          
-          <ContactBtn />
+  const calendlyClick = () => {
+    openPopupWidget({ url: "https://calendly.com/consultaion_test/marketing" });
+  };
 
-          </div>
-          <div className="transform mt-64 -ml-32 mobile:m-0 mobile:w-1/2 mobile:translate-x-16 mobile:translate-y-8">
-            <Image 
-              src="/target.png"
-              alt="Icon of a bullseye"
-              width="400"
-              height="400"
-            />
-          </div>
-        </section>
-  )
+  return (
+    <section
+      aria-label="Schedule an Appointment to help your business."
+      className="container mx-auto px-4 phone:pb-32"
+    >
+      <div className="larger:max-w-850 mobile:w-full">
+        <h1 className="text-4xl font-bold pt-10 leading-none">
+          Create profitable revenue streams for your business.
+        </h1>
+        <div className="flex flex-wrap pt-8">
+          <InfoCard title="marketing" icon="/megaphone.png">
+            <p className="mb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </InfoCard>
+          <InfoCard title="web" icon="/phone.png">
+            <p className="mb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </InfoCard>
+          <InfoCard title="both" icon="/supercup.png">
+            <p className="mb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </InfoCard>
+          <a
+            className="hover:underline text-very_blue text-5xl font-bold leading-none tracking-wider cursor-pointer mt-10 ml-10 phone:hidden"
+            onClick={calendlyClick}
+          >
+            Schedule an <br />
+            Appointment
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 }
