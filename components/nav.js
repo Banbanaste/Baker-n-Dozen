@@ -4,26 +4,26 @@ import Link from "next/link";
 // icons
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { SiMailDotRu } from "react-icons/si";
+import { MdMailOutline } from "react-icons/md";
 
-export default function Nav() {
+export default function Nav(props) {
   return (
     <nav className="bg-black text-white">
       <div className="flex flex-wrap items-center h-full font-bold uppercase container mx-auto justify-between py-6 px-4">
         <div className="flex text-3xl phone:w-full phone:justify-between phone:text-2xl">
-          <Link href="/web">
+          <Link href={`/${props.a === "home" ? "" : props.a}`}>
             <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-              Web
+              {props.a}
             </h1>
           </Link>
-          <Link href="/marketing">
+          <Link href={`/${props.b}`}>
             <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-              Marketing
+              {props.b}
             </h1>
           </Link>
-          <Link href="/both">
+          <Link href={`/${props.c}`}>
             <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-              Both
+              {props.c}
             </h1>
           </Link>
         </div>
@@ -32,7 +32,7 @@ export default function Nav() {
             href=""
             className="mr-6 hover:text-very_blue cursor-pointer text-4xl self-center"
           >
-            <SiMailDotRu />
+            <MdMailOutline />
           </a>
           <a href="" className="mr-6 hover:text-very_blue cursor-pointer">
             <TiSocialFacebookCircular />

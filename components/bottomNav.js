@@ -1,13 +1,10 @@
-// Next.js libraries
-import Link from "next/link";
-
 // calendly
 import { openPopupWidget } from "react-calendly";
 
 // icons
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { SiMailDotRu } from "react-icons/si";
+import { MdMailOutline } from "react-icons/md";
 
 export default function Nav() {
   const calendlyClick = () => {
@@ -24,7 +21,7 @@ export default function Nav() {
         </a>
         <div className="flex text-3xl w-1/2 justify-between items-center">
           <a href="" className="hover:text-very_blue cursor-pointer text-2xl">
-            <SiMailDotRu />
+            <MdMailOutline />
           </a>
           <a href="" className="hover:text-very_blue cursor-pointer">
             <TiSocialFacebookCircular />

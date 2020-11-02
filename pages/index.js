@@ -12,7 +12,7 @@ export default function IndexPage() {
       <Head>
         <title>Caveman Consulting Co.</title>
       </Head>
-      <Nav />
+      <Nav a="marketing" b="web" c="both" />
       <BottomNav />
       <LandingPage />
     </>
