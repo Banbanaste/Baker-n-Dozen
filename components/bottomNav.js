@@ -14,7 +14,7 @@ export default function Nav() {
     openPopupWidget({ url: "https://calendly.com/consultaion_test/marketing" });
   };
   return (
-    <nav className="bg-black text-white fixed bottom-0 larger:hidden w-full">
+    <nav className="bg-black text-white fixed bottom-0 larger:hidden w-full z-10">
       <div className="flex flex-col justify-center items-center h-full font-bold uppercase container mx-auto justify-between py-6 px-4">
         <a
           className="hover:underline text-very_blue text-xl font-bold leading-none tracking-wider cursor-pointer mb-6"
