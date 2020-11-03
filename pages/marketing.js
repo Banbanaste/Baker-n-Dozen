@@ -7,7 +7,7 @@ export default function MarketingPage() {
   return (
     <>
       <Nav a="home" b="web" c="both" />
-      <section className="container mx-auto px-4">
+      <section className="container mx-auto px-4 phone:pb-32">
         <div className="mt-10">
           <h1 className="text-5xl font-extrabold">Marketing</h1>
           <p className="text-xl">
