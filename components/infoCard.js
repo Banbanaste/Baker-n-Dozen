@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function InfoCard(props) {
   return (
-    <div className="max-w-card rounded bg-white flex pt-2 pb-6 phone:max-w-full">
+    <div className="max-w-card flex pt-2 pb-6 phone:max-w-full">
       <div className="w-1/5 phone:hidden">
         <Image
           src={props.icon}
