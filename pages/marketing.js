@@ -1,5 +1,6 @@
 // components
 import Nav from "../components/nav";
+import BottomNav from "../components/bottomNav";
 import InfoCard from "../components/infoCard";
 
 export default function MarketingPage() {
@@ -51,6 +52,7 @@ export default function MarketingPage() {
           </InfoCard>
         </div>
       </section>
+      <BottomNav />
     </>
   );
 }
