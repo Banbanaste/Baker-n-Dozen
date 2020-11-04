@@ -13,18 +13,16 @@
 /* Your own custom utilities */
 
 /* gradient border */
-.coolBorder {
-}
 
 /* Background Animation */
 .gradBody {
-  background: linear-gradient(46deg, #e72019, #a200ff, #1945e7);
+  background: linear-gradient(46deg, #ff0800, #8c00ff, #0037ff);
   background-size: 500% 500%;
 
-  -webkit-animation: grad_color_mover 10s ease infinite;
-  -moz-animation: grad_color_mover 10s ease infinite;
-  -o-animation: grad_color_mover 10s ease infinite;
-  animation: grad_color_mover 10s ease infinite;
+  -webkit-animation: grad_color_mover 8s ease infinite;
+  -moz-animation: grad_color_mover 8s ease infinite;
+  -o-animation: grad_color_mover 8s ease infinite;
+  animation: grad_color_mover 8s ease infinite;
 }
 
 @-webkit-keyframes grad_color_mover {
