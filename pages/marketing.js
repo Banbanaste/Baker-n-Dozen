@@ -1,7 +1,7 @@
 // components
 import Nav from "../components/nav";
 import BottomNav from "../components/bottomNav";
-import InfoCard from "../components/infoCard";
+import ContactButton from "../components/contactButton";
 
 export default function MarketingPage() {
   return (
@@ -20,36 +20,29 @@ export default function MarketingPage() {
             advertising dollars not quickly.
           </p>
         </div>
-        <div className="flex flex-wrap mt-10">
-          <InfoCard title="Google Advertising" icon="/bubble.png">
-            <p>
-              Google can be the secret recipe to grow any online or even brick
-              and mortar business.
-            </p>
-            <p className="mt-2">
-              With Search Ads, Map Ads, Click to Call Ads Caveman Consulting Co.
-              can provide all the coverage you will need to succeed on the
-              Google search platform. Google being the most popular search
-              engine by a long shot.
-            </p>
-          </InfoCard>
-          <InfoCard title="Social Media Advertising " icon="/bubble.png">
+        <div className="mt-10 flex">
+          <div className="max-w-xl">
+            <h2 className="text-xl font-bold">Google Advertising</h2>
             <p className="">
+              Google can be the secret recipe to grow any online or even brick
+              and mortar business. With Search Ads, Map Ads, Click to Call Ads
+              Caveman Consulting Co. can provide all the coverage you will need
+              to succeed on the Google search platform. Google being the most
+              popular search engine by a long shot.
+            </p>
+            <h2 className="text-xl font-bold mt-6">Social Media Advertising</h2>
+            <p>
               Social Media has took the business world by storm and having a
               presence on social media is always a vital way to get gain traffic
-              traction online.
+              traction online. With our in-depth of analysis of your target
+              audience our Facebook Marketing campaigns will allow target the
+              right person for your brand. If you are looking to partner with
+              other professionals in your industry our LinkedIn campaigns can be
+              a powerful tool to attract professionals in target industries.
             </p>
-            <p className="mt-2">
-              With our in-depth of analysis of your target audience our Facebook
-              Marketing campaigns will allow target the right person for your
-              brand.
-            </p>
-            <p className="mt-2">
-              If you are looking to partner with other professionals in your
-              industry our LinkedIn campaigns can be a powerful tool to attract
-              professionals in target industries.
-            </p>
-          </InfoCard>
+            <ContactButton clesses="" />
+          </div>
+          <div></div>
         </div>
       </section>
       <BottomNav />

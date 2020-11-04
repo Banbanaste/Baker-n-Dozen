@@ -11,3 +11,63 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+/* gradient border */
+.coolBorder {
+}
+
+/* Background Animation */
+.gradBody {
+  background: linear-gradient(46deg, #e72019, #a200ff, #1945e7);
+  background-size: 500% 500%;
+
+  -webkit-animation: grad_color_mover 10s ease infinite;
+  -moz-animation: grad_color_mover 10s ease infinite;
+  -o-animation: grad_color_mover 10s ease infinite;
+  animation: grad_color_mover 10s ease infinite;
+}
+
+@-webkit-keyframes grad_color_mover {
+  0% {
+    background-position: 0% 56%;
+  }
+  50% {
+    background-position: 100% 45%;
+  }
+  100% {
+    background-position: 0% 56%;
+  }
+}
+@-moz-keyframes grad_color_mover {
+  0% {
+    background-position: 0% 56%;
+  }
+  50% {
+    background-position: 100% 45%;
+  }
+  100% {
+    background-position: 0% 56%;
+  }
+}
+@-o-keyframes grad_color_mover {
+  0% {
+    background-position: 0% 56%;
+  }
+  50% {
+    background-position: 100% 45%;
+  }
+  100% {
+    background-position: 0% 56%;
+  }
+}
+@keyframes grad_color_mover {
+  0% {
+    background-position: 0% 56%;
+  }
+  50% {
+    background-position: 100% 45%;
+  }
+  100% {
+    background-position: 0% 56%;
+  }
+}
