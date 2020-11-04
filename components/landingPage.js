@@ -6,7 +6,7 @@ export default function LandingPage() {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
-      className="pb-20"
+      className="phone:pb-32 phone:mb-10"
     >
       <div className="mobile:w-full">
         <div className="gradBody pt-12 pb-24 w-full">
