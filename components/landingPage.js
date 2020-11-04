@@ -6,12 +6,12 @@ export default function LandingPage() {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
-      className="phone:pb-32 phone:mb-10"
+      className="phone:pb-16"
     >
       <div className="mobile:w-full">
         <div className="gradBody pt-12 pb-24 w-full">
-          <div className="container mx-auto px-4 text-5xl text-white">
-            <h1 className="leading-snug font-semibold capitalize italic underline opacity-50">
+          <div className="container mx-auto px-4 text-5xl text-black">
+            <h1 className="leading-snug font-semibold capitalize italic underline ">
               We create web experiences and marketing campaings for your
               business
             </h1>
