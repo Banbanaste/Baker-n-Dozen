@@ -14,7 +14,6 @@ export default function BottomNav(props) {
     <nav className="bg-black text-white fixed bottom-0 larger:hidden w-full z-10">
       <div className="flex flex-col justify-between items-start h-full font-bold uppercase container mx-auto justify-between py-4 px-4 ">
         <div className="flex w-full justify-between">
-          <ContactButton classes="hover:text-very_blue cursor-pointer" />
           <Link href={`/${props.a === "home" ? "" : props.a}`}>
             <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
               {props.a}
@@ -30,6 +29,7 @@ export default function BottomNav(props) {
               {props.c}
             </h1>
           </Link>
+          <ContactButton classes="hover:text-very_blue cursor-pointer" />
         </div>
         <div className="flex text-3xl justify-between w-full items-center hidden">
           <ContactButton classes="hover:text-very_blue text-base font-bold leading-none tracking-wider cursor-pointer" />
