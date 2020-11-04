@@ -8,9 +8,9 @@ import { MdMailOutline } from "react-icons/md";
 
 export default function Nav(props) {
   return (
-    <nav className="bg-black text-white">
+    <nav className="bg-black text-white phone:hidden">
       <div className="flex flex-wrap items-center h-full font-bold uppercase container mx-auto justify-between py-6 px-4">
-        <div className="flex text-3xl phone:w-full phone:justify-between phone:text-2xl">
+        <div className="flex text-2xl phone:w-full phone:justify-between phone:text-2xl">
           <Link href={`/${props.a === "home" ? "" : props.a}`}>
             <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
               {props.a}
@@ -27,10 +27,10 @@ export default function Nav(props) {
             </h1>
           </Link>
         </div>
-        <div className="flex text-5xl phone:hidden">
+        <div className="flex text-4xl phone:hidden">
           <a
             href=""
-            className="mr-6 hover:text-very_blue cursor-pointer text-4xl self-center"
+            className="mr-6 hover:text-very_blue cursor-pointer text-3xl self-center"
           >
             <MdMailOutline />
           </a>

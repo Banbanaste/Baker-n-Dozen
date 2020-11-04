@@ -45,7 +45,7 @@ export default function MarketingPage() {
           <div></div>
         </div>
       </section>
-      <BottomNav />
+      <BottomNav a="home" b="web" c="both" />
     </>
   );
 }
