@@ -47,7 +47,7 @@ export default function LandingPage() {
 
         <div className="flex justify-around items-start mt-16">
           <CardTemplate
-            classes="infoCard"
+            classes="infoCard mr-8"
             title="Marketing"
             info={[
               "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
