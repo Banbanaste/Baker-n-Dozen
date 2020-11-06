@@ -22,7 +22,7 @@ export default function AnimatedInfoCards() {
     prevArrow: <PrevArrow />,
   };
   return (
-    <div className="mt-6 mb-16">
+    <div className="mt-6">
       <Slider {...settings}>
         <CardTemplate
           classes="mx-auto phone:max-w-lg z-0"
@@ -79,7 +79,7 @@ export default function AnimatedInfoCards() {
             "We want your business to seemlesly flow throughout its various touch points on the internet. A website is crucial to any business, and with the right web presentation a business can thrive.",
           ]}
         >
-          <div className="flex flex-wrap items-end justify-between space-y-6 space-x-2 py-2">
+          <div className="flex flex-wrap items-end justify-between  space-x-2 py-2">
             <div className=" w-auto  ">
               <Image
                 layout="fill"
@@ -101,37 +101,10 @@ export default function AnimatedInfoCards() {
             <div className=" w-auto ">
               <Image
                 layout="fill"
-                src="/images/react.png"
-                alt="React logo"
-                width={55}
-                height={50}
-              />
-            </div>
-            <div className=" w-auto ">
-              <Image
-                layout="fill"
                 src="/images/gql.png"
                 alt="GraphQL logo"
                 width={50}
                 height={50}
-              />
-            </div>
-            <div className=" w-auto  self-end">
-              <Image
-                layout="fill"
-                src="/images/dm.png"
-                alt="Designmodo logo"
-                width={120}
-                height={25}
-              />
-            </div>
-            <div className=" w-auto ">
-              <Image
-                layout="fill"
-                src="/images/shopify.png"
-                alt="Shopify logo"
-                width={120}
-                height={30}
               />
             </div>
           </div>

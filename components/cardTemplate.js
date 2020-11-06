@@ -1,7 +1,7 @@
 export default function CardTemplate(props) {
   return (
     <div
-      className={`rounded-lg bg-light w-72 non_phone:shadow-xl mb-10 ${props.classes}`}
+      className={`rounded-lg bg-light w-72 non_phone:shadow-xl non_phone:mb-10 ${props.classes}`}
     >
       <div className="p-8">
         <h1 className="font-bold text-lg mb-4">{props.title}</h1>

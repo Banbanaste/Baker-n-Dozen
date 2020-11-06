@@ -33,7 +33,7 @@ export default function LandingPage() {
     <>
       <section
         aria-label="Schedule an Appointment to help your business."
-        className="container mx-auto max-h-screen  hero"
+        className="container mx-auto non_phone:max-h-screen hero phone:pb-20"
       >
         <div className="non_phone:min-h-screen flex justify-center items-center phone:justify-center phone:items-start">
           <div className="transform scale-150 phone:scale-100 rounded-full h-72 w-72 phone:h-48 phone:w-48 gradient phone:mt-20 flex flex-col justify-center items-center overflow-visible ">

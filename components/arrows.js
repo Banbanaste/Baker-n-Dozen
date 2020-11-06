@@ -4,12 +4,12 @@ export function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`text-5xl z-50 absolute`}
+      className={`text-4xl z-50 absolute opacity-25`}
       style={{
         ...style,
         display: "inline-block",
         transform: "rotate(135deg)",
-        top: "60%",
+        top: "40%",
         left: "15px",
       }}
       onClick={onClick}
@@ -23,11 +23,11 @@ export function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`transform -rotate-45 text-5xl z-50 absolute `}
+      className={`transform -rotate-45 text-4xl z-50 absolute  opacity-25`}
       style={{
         ...style,
         display: "inline-block",
-        top: "60%",
+        top: "40%",
         right: "15px",
       }}
       onClick={onClick}
