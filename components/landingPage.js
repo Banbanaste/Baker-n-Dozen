@@ -33,7 +33,7 @@ export default function LandingPage() {
         aria-label="Schedule an Appointment to help your business."
         className="container mx-auto pb-32"
       >
-        <div className="transform scale-125 rounded-full h-72 w-72 gradient mx-auto flex flex-col justify-center items-center overflow-visible my-24 hero">
+        <div className="transform scale-125 rounded-full h-72 w-72 gradient mx-auto flex flex-col justify-center items-center overflow-visible mt-32 mb-24 hero">
           <div className="w-84 text-center leading-snug ">
             <h1 className="text-4xl font-bold">
               Bring your business out of the Stone Age
