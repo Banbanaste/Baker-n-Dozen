@@ -9,18 +9,23 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// custom arrow icons
+import { NextArrow, PrevArrow } from "./arrows";
+
 export default function AnimatedInfoCards() {
   var settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
   return (
-    <div>
+    <div className="mt-6 mb-16">
       <Slider {...settings}>
         <CardTemplate
-          classes="mx-auto phone:max-w-lg"
+          classes="mx-auto phone:max-w-lg z-0"
           title="Marketing"
           info={[
             "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
@@ -67,7 +72,7 @@ export default function AnimatedInfoCards() {
           </div>
         </CardTemplate>
         <CardTemplate
-          classes="mx-auto"
+          classes="mx-auto phone:max-w-lg"
           title="Web"
           info={[
             "We design, develop, deploy, and maintain web experiences so you can focus on growing your business. We create websites that will accomplish your goals, and increase your brand value.",
