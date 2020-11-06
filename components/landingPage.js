@@ -18,13 +18,12 @@ export default function LandingPage() {
     gsap.to(".infoCard", {
       scrollTrigger: {
         trigger: ".infoCard",
-        start: 0,
-        end: "top end",
+        start: "top " + document.querySelector(".infoCard").offsetTop,
+        end: "+=75px",
         scrub: true,
         pin: ".hero",
       },
       y: -75,
-      duration: 3,
     });
   }, []);
 
@@ -47,7 +46,7 @@ export default function LandingPage() {
           <div className="" />
         </div>
 
-        <div className="flex justify-around items-start">
+        <div className="flex justify-around items-start overflow-visible -mt-32 -mb-32">
           <CardTemplate
             classes="infoCard"
             title="Marketing"
