@@ -103,7 +103,7 @@ export default function LandingPage() {
               "We want your business to seemlesly flow throughout its various touch points on the internet. A website is crucial to any business, and with the right web presentation a business can thrive.",
             ]}
           >
-            <div className="flex flex-wrap items-center justify-between space-y-6 space-x-2 py-2">
+            <div className="flex flex-wrap items-end justify-between space-y-6 space-x-2 py-2">
               <div className=" w-auto  ">
                 <Image
                   layout="fill"
