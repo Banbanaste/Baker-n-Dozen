@@ -12,7 +12,7 @@ import ContactButton from "./contactButton";
 export default function BottomNav(props) {
   return (
     <>
-      <nav className="bg-black text-white fixed bottom-0 larger:hidden w-full z-10">
+      <nav className="bg-black text-code fixed bottom-0 larger:hidden w-full z-10">
         <div className="flex flex-col justify-between items-start h-full font-bold uppercase container mx-auto justify-between py-4 px-4 ">
           <div className="flex w-full justify-between">
             <Link href={`/${props.a === "home" ? "" : props.a}`}>
@@ -33,7 +33,7 @@ export default function BottomNav(props) {
           </div>
         </div>
       </nav>
-      <nav className="bg-black text-white fixed top-0 larger:hidden w-full z-10">
+      <nav className="bg-black text-code fixed top-0 larger:hidden w-full z-10">
         <div className="flex flex-col justify-between items-start h-full font-bold uppercase container mx-auto justify-between py-4 px-4 ">
           <div className="flex text-3xl justify-between w-full items-center ">
             <ContactButton classes="hover:text-very_blue text-base font-bold cursor-pointer" />

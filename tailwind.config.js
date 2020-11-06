@@ -16,16 +16,28 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
     },
+    fontFamily: {
+      Futura: ["Futura", "sans-serif"],
+    },
     extend: {
       colors: {
         primary: "#FF0505",
         secondary: "#FF7830",
-        dark: "#18181A",
+        code: "#00ff44",
+        light: "#FAFAFA",
+        dark: "#17181A",
         very_blue: "#000FFF",
         very_purple: "#9B30FF",
       },
       width: {
         850: "850px",
+        72: "20rem",
+        78: "24rem",
+        84: "29rem",
+      },
+      height: {
+        72: "20rem",
+        84: "29rem",
       },
       maxWidth: {
         card: "22rem",

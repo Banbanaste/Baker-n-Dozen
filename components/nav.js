@@ -1,45 +1,21 @@
 // Next.js libraries
 import Link from "next/link";
 
-// icons
-import { TiSocialFacebookCircular } from "react-icons/ti";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { MdMailOutline } from "react-icons/md";
-
 export default function Nav(props) {
   return (
-    <nav className="bg-black text-white phone:hidden">
-      <div className="flex flex-wrap items-center h-full font-bold uppercase container mx-auto justify-between py-6 px-4">
-        <div className="flex text-2xl phone:w-full phone:justify-between phone:text-2xl">
-          <Link href={`/${props.a === "home" ? "" : props.a}`}>
-            <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-              {props.a}
-            </h1>
-          </Link>
-          <Link href={`/${props.b}`}>
-            <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-              {props.b}
-            </h1>
-          </Link>
-          <Link href={`/${props.c}`}>
-            <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-              {props.c}
-            </h1>
-          </Link>
+    <nav className="bg-dark w-full phone:hidden fixed top-0 z-50">
+      <div
+        className="container mx-auto flex justify-between uppercase text-white py-2"
+        style={{ fontWeight: "800" }}
+      >
+        <div>
+          <Link href="/">Caveman Consulting Co.</Link>
         </div>
-        <div className="flex text-4xl phone:hidden">
-          <a
-            href=""
-            className="mr-6 hover:text-very_blue cursor-pointer text-3xl self-center"
-          >
-            <MdMailOutline />
-          </a>
-          <a href="" className="mr-6 hover:text-very_blue cursor-pointer">
-            <TiSocialFacebookCircular />
-          </a>
-          <a href="" className="hover:text-very_blue cursor-pointer">
-            <TiSocialLinkedinCircular />
-          </a>
+        <div className="space-x-10">
+          <Link href="/">Marketing</Link>
+          <Link href="/">Web</Link>
+          <Link href="/">Projects</Link>
+          <Link href="/">Contact</Link>
         </div>
       </div>
     </nav>

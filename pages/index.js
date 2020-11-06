@@ -1,20 +1,11 @@
-// Next.js libraries
-import Head from "next/head";
-
 // components
-import Nav from "../components/nav";
-import BottomNav from "../components/bottomNav";
+import Layout from "../components/layout";
 import LandingPage from "../components/landingPage";
 
 export default function IndexPage() {
   return (
-    <>
-      <Head>
-        <title>Caveman Consulting Co.</title>
-      </Head>
-      <Nav a="marketing" b="web" c="both" />
-      <BottomNav a="marketing" b="web" c="both" />
+    <Layout a="marketing" b="web" c="both">
       <LandingPage />
-    </>
+    </Layout>
   );
 }

@@ -1,71 +1,37 @@
 @tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
-
-/* Start purging... */
 @tailwind utilities;
-/* Stop purging. */
 
-/* Your own custom utilities */
-
-/* gradient border */
-
-/* Background Animation */
-.gradBody {
-  background: linear-gradient(46deg, #ff0800, #8c00ff, #0037ff);
-  background-size: 500% 500%;
-
-  -webkit-animation: grad_color_mover 8s ease infinite;
-  -moz-animation: grad_color_mover 8s ease infinite;
-  -o-animation: grad_color_mover 8s ease infinite;
-  animation: grad_color_mover 8s ease infinite;
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/Futura/Futura-Medium.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 
-@-webkit-keyframes grad_color_mover {
-  0% {
-    background-position: 0% 56%;
-  }
-  50% {
-    background-position: 100% 45%;
-  }
-  100% {
-    background-position: 0% 56%;
-  }
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/Futura/Futura-Heavy.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
 }
-@-moz-keyframes grad_color_mover {
-  0% {
-    background-position: 0% 56%;
-  }
-  50% {
-    background-position: 100% 45%;
-  }
-  100% {
-    background-position: 0% 56%;
-  }
+
+html {
+  font-family: Futura, sans-serif;
 }
-@-o-keyframes grad_color_mover {
-  0% {
-    background-position: 0% 56%;
-  }
-  50% {
-    background-position: 100% 45%;
-  }
-  100% {
-    background-position: 0% 56%;
-  }
+
+.gradient {
+  background-color: #f1dd29;
+  background-image: linear-gradient(315deg, #f1dd29 18%, #fe4e4e 70%);
 }
-@keyframes grad_color_mover {
-  0% {
-    background-position: 0% 56%;
-  }
-  50% {
-    background-position: 100% 45%;
-  }
-  100% {
-    background-position: 0% 56%;
-  }
+
+.opaque_gradient {
+  background-color: rgba(254, 78, 78, 0.1);
+  background-image: linear-gradient(
+    305deg,
+    rgba(241, 221, 41, 0.1),
+    rgba(254, 78, 78, 0.1) 90%
+  );
 }
