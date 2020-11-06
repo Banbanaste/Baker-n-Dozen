@@ -19,7 +19,7 @@ export default function LandingPage() {
       scrollTrigger: {
         trigger: ".infoCard",
         start: "top " + document.querySelector(".infoCard").offsetTop,
-        end: "top center",
+        end: "center center",
         pin: ".hero",
         scrub: 1,
       },
@@ -103,8 +103,8 @@ export default function LandingPage() {
               "We want your business to seemlesly flow throughout its various touch points on the internet. A website is crucial to any business, and with the right web presentation a business can thrive.",
             ]}
           >
-            <div className="flex flex-wrap items-center justify-between space-y-4 space-x-2 ">
-              <div className="h-16 w-auto  ">
+            <div className="flex flex-wrap items-center justify-between space-y-6 space-x-2 py-2">
+              <div className=" w-auto  ">
                 <Image
                   layout="fill"
                   src="/images/js.png"
@@ -113,7 +113,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto ">
+              <div className=" w-auto ">
                 <Image
                   layout="fill"
                   src="/images/aws.png"
@@ -122,7 +122,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto ">
+              <div className=" w-auto ">
                 <Image
                   layout="fill"
                   src="/images/react.png"
@@ -131,7 +131,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto ">
+              <div className=" w-auto ">
                 <Image
                   layout="fill"
                   src="/images/gql.png"
@@ -140,7 +140,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto  self-end">
+              <div className=" w-auto  self-end">
                 <Image
                   layout="fill"
                   src="/images/dm.png"
@@ -149,7 +149,7 @@ export default function LandingPage() {
                   height={25}
                 />
               </div>
-              <div className="h-16 w-auto ">
+              <div className=" w-auto ">
                 <Image
                   layout="fill"
                   src="/images/shopify.png"
