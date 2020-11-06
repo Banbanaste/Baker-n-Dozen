@@ -19,11 +19,11 @@ export default function LandingPage() {
       scrollTrigger: {
         trigger: ".infoCard",
         start: "top " + document.querySelector(".infoCard").offsetTop,
-        end: "+=75px",
+        end: "top center",
         pin: ".hero",
         scrub: 1,
       },
-      y: -250,
+      y: -document.querySelector(".infoCard").offsetTop + 200,
     });
   }, []);
 
@@ -31,21 +31,23 @@ export default function LandingPage() {
     <>
       <section
         aria-label="Schedule an Appointment to help your business."
-        className="container mx-auto max-h-screen pt-32 hero"
+        className="container mx-auto max-h-screen  hero"
       >
-        <div className="transform scale-125 rounded-full h-72 w-72 gradient mx-auto flex flex-col justify-center items-center overflow-visible ">
-          <div className="w-84 text-center leading-snug ">
-            <h1 className="text-4xl font-bold">
-              Bring your business out of the Stone Age
-            </h1>
-            <p className="text-xl mt-4 font-medium">
-              with a modern web experience and marketing campaign anything is
-              possible
-            </p>
+        <div className="min-h-screen flex justify-center items-center">
+          <div className="transform scale-150 rounded-full h-72 w-72 gradient mx-auto flex flex-col justify-center items-center overflow-visible ">
+            <div className="w-84 text-center leading-snug ">
+              <h1 className="text-4xl font-bold">
+                Bring your business out of the Stone Age
+              </h1>
+              <p className="text-xl mt-4 font-medium">
+                with a modern web experience and marketing campaign anything is
+                possible
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className="flex justify-around items-start mt-16">
+        <div className="flex justify-around items-start ">
           <CardTemplate
             classes="infoCard mr-8"
             title="Marketing"
@@ -53,7 +55,7 @@ export default function LandingPage() {
               "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
             ]}
           >
-            <div className="flex flex-col items-center justify-between h-64 my-6">
+            <div className="flex flex-col items-center justify-between space-y-4 py-2">
               <Image
                 src="/images/google.png"
                 alt="Google logo"
@@ -101,8 +103,8 @@ export default function LandingPage() {
               "We want your business to seemlesly flow throughout its various touch points on the internet. A website is crucial to any business, and with the right web presentation a business can thrive.",
             ]}
           >
-            <div className="flex flex-wrap items-center justify-between my-2 px-4">
-              <div className="h-16 w-auto my-4 ">
+            <div className="flex flex-wrap items-center justify-between space-y-4 space-x-2 ">
+              <div className="h-16 w-auto  ">
                 <Image
                   layout="fill"
                   src="/images/js.png"
@@ -111,7 +113,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto my-4">
+              <div className="h-16 w-auto ">
                 <Image
                   layout="fill"
                   src="/images/aws.png"
@@ -120,7 +122,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto my-4">
+              <div className="h-16 w-auto ">
                 <Image
                   layout="fill"
                   src="/images/react.png"
@@ -129,7 +131,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto my-4">
+              <div className="h-16 w-auto ">
                 <Image
                   layout="fill"
                   src="/images/gql.png"
@@ -138,7 +140,7 @@ export default function LandingPage() {
                   height={50}
                 />
               </div>
-              <div className="h-16 w-auto my-4 self-end">
+              <div className="h-16 w-auto  self-end">
                 <Image
                   layout="fill"
                   src="/images/dm.png"
@@ -147,7 +149,7 @@ export default function LandingPage() {
                   height={25}
                 />
               </div>
-              <div className="h-16 w-auto my-4">
+              <div className="h-16 w-auto ">
                 <Image
                   layout="fill"
                   src="/images/shopify.png"
