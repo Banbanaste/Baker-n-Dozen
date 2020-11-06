@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Nav(props) {
   return (
-    <nav className="bg-dark w-full phone:hidden fixed top-0 z-50">
+    <nav className="bg-dark w-full phone:hidden fixed top-0 z-50 py-2">
       <div
         className="container mx-auto flex justify-between uppercase text-white py-2"
         style={{ fontWeight: "800" }}

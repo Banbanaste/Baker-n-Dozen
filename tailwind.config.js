@@ -10,7 +10,7 @@ module.exports = {
       mobile: { max: "850px" },
       phone: { max: "768px" },
       tablet: { min: "425px" },
-      larger: { min: "768px" },
+      non_phone: { min: "768px" },
       sm: "640px",
       md: "768px",
       lg: "1024px",

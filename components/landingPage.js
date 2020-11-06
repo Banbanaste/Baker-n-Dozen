@@ -10,6 +10,8 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 // components
 import CardTemplate from "./cardTemplate";
+import AnimatedInfoCards from "./animatedInfoCards";
+import MobileInfoCards from "./mobileInfoCards";
 
 export default function LandingPage() {
   useEffect(() => {
@@ -33,8 +35,8 @@ export default function LandingPage() {
         aria-label="Schedule an Appointment to help your business."
         className="container mx-auto max-h-screen  hero"
       >
-        <div className="min-h-screen flex justify-center items-center">
-          <div className="transform scale-150 rounded-full h-72 w-72 gradient mx-auto flex flex-col justify-center items-center overflow-visible ">
+        <div className="non_phone:min-h-screen flex justify-center items-center phone:justify-center phone:items-start">
+          <div className="transform scale-150 phone:scale-100 rounded-full h-72 w-72 phone:h-48 phone:w-48 gradient phone:mt-20 flex flex-col justify-center items-center overflow-visible ">
             <div className="w-84 text-center leading-snug ">
               <h1 className="text-4xl font-bold">
                 Bring your business out of the Stone Age
@@ -46,121 +48,8 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-
-        <div className="flex justify-around items-start ">
-          <CardTemplate
-            classes="infoCard mr-8"
-            title="Marketing"
-            info={[
-              "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
-            ]}
-          >
-            <div className="flex flex-col items-center justify-between space-y-4 py-2">
-              <Image
-                src="/images/google.png"
-                alt="Google logo"
-                width={100}
-                height={30}
-              />
-              <Image
-                src="/images/facebook.png"
-                alt="Facebook logo"
-                width={120}
-                height={23}
-              />
-              <Image
-                src="/images/instagram.png"
-                alt="Instagram logo"
-                width={110}
-                height={35}
-              />
-              <Image
-                src="/images/linkedin.png"
-                alt="LinkedIn logo"
-                width={110}
-                height={27}
-              />
-
-              <Image
-                src="/images/twitter.png"
-                alt="Twitter logo"
-                width={100}
-                height={20}
-              />
-              <Image
-                src="/images/reddit.png"
-                alt="Reddit logo"
-                width={70}
-                height={20}
-              />
-            </div>
-          </CardTemplate>
-          <CardTemplate
-            classes="transform translate-y-64 infoCard"
-            title="Web"
-            info={[
-              "We design, develop, deploy, and maintain web experiences so you can focus on growing your business. We create websites that will accomplish your goals, and increase your brand value.",
-              "We want your business to seemlesly flow throughout its various touch points on the internet. A website is crucial to any business, and with the right web presentation a business can thrive.",
-            ]}
-          >
-            <div className="flex flex-wrap items-end justify-between space-y-6 space-x-2 py-2">
-              <div className=" w-auto  ">
-                <Image
-                  layout="fill"
-                  src="/images/js.png"
-                  alt="Javascript logo"
-                  width={50}
-                  height={50}
-                />
-              </div>
-              <div className=" w-auto ">
-                <Image
-                  layout="fill"
-                  src="/images/aws.png"
-                  alt="AWS logo"
-                  width={70}
-                  height={50}
-                />
-              </div>
-              <div className=" w-auto ">
-                <Image
-                  layout="fill"
-                  src="/images/react.png"
-                  alt="React logo"
-                  width={55}
-                  height={50}
-                />
-              </div>
-              <div className=" w-auto ">
-                <Image
-                  layout="fill"
-                  src="/images/gql.png"
-                  alt="GraphQL logo"
-                  width={50}
-                  height={50}
-                />
-              </div>
-              <div className=" w-auto  self-end">
-                <Image
-                  layout="fill"
-                  src="/images/dm.png"
-                  alt="Designmodo logo"
-                  width={120}
-                  height={25}
-                />
-              </div>
-              <div className=" w-auto ">
-                <Image
-                  layout="fill"
-                  src="/images/shopify.png"
-                  alt="Shopify logo"
-                  width={120}
-                  height={30}
-                />
-              </div>
-            </div>
-          </CardTemplate>
-        </div>
+        <MobileInfoCards />
+        <AnimatedInfoCards />
       </section>
       {/* <section className="h-screen w-full bg-dark"></section> */}
     </>

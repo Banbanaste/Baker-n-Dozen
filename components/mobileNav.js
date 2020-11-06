@@ -11,49 +11,20 @@ import ContactButton from "./contactButton";
 
 export default function BottomNav(props) {
   return (
-    <>
-      <nav className="bg-black text-code fixed bottom-0 larger:hidden w-full z-10">
-        <div className="flex flex-col justify-between items-start h-full font-bold uppercase container mx-auto justify-between py-4 px-4 ">
-          <div className="flex w-full justify-between">
-            <Link href={`/${props.a === "home" ? "" : props.a}`}>
-              <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-                {props.a}
-              </h1>
-            </Link>
-            <Link href={`/${props.b}`}>
-              <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-                {props.b}
-              </h1>
-            </Link>
-            <Link href={`/${props.c}`}>
-              <h1 className="larger:mr-10 hover:text-very_blue cursor-pointer">
-                {props.c}
-              </h1>
-            </Link>
-          </div>
+    <div className="non_phone:hidden">
+      <nav className="bg-dark w-full fixed top-0 z-50 py-2 ">
+        <div className="container mx-auto flex justify-center uppercase text-white py-2 font-semibold">
+          <Link href="/">Caveman Consulting Co.</Link>
         </div>
       </nav>
-      <nav className="bg-black text-code fixed top-0 larger:hidden w-full z-10">
-        <div className="flex flex-col justify-between items-start h-full font-bold uppercase container mx-auto justify-between py-4 px-4 ">
-          <div className="flex text-3xl justify-between w-full items-center ">
-            <ContactButton classes="hover:text-very_blue text-base font-bold cursor-pointer" />
-            <div className="flex items-center justify-between w-1/2 tablet:w-4/12">
-              <a
-                href=""
-                className="hover:text-very_blue cursor-pointer text-2xl"
-              >
-                <MdMailOutline />
-              </a>
-              <a href="" className="hover:text-very_blue cursor-pointer">
-                <TiSocialFacebookCircular />
-              </a>
-              <a href="" className="hover:text-very_blue cursor-pointer">
-                <TiSocialLinkedinCircular />
-              </a>
-            </div>
-          </div>
+      <nav className="bg-dark w-full fixed bottom-0 z-50 py-2">
+        <div className="container mx-auto flex justify-between uppercase text-white py-2 font-semibold">
+          <Link href="/">Marketing</Link>
+          <Link href="/">Web</Link>
+          <Link href="/">Projects</Link>
+          <Link href="/">Contact</Link>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
