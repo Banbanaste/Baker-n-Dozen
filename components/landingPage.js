@@ -20,10 +20,10 @@ export default function LandingPage() {
         trigger: ".infoCard",
         start: "top " + document.querySelector(".infoCard").offsetTop,
         end: "+=75px",
-        scrub: true,
         pin: ".hero",
+        scrub: 1,
       },
-      y: -75,
+      y: -250,
     });
   }, []);
 
@@ -31,9 +31,9 @@ export default function LandingPage() {
     <>
       <section
         aria-label="Schedule an Appointment to help your business."
-        className="container mx-auto pb-32"
+        className="container mx-auto max-h-screen pt-32 hero"
       >
-        <div className="transform scale-125 rounded-full h-72 w-72 gradient mx-auto flex flex-col justify-center items-center overflow-visible mt-32 mb-24 hero">
+        <div className="transform scale-125 rounded-full h-72 w-72 gradient mx-auto flex flex-col justify-center items-center overflow-visible ">
           <div className="w-84 text-center leading-snug ">
             <h1 className="text-4xl font-bold">
               Bring your business out of the Stone Age
@@ -43,10 +43,9 @@ export default function LandingPage() {
               possible
             </p>
           </div>
-          <div className="" />
         </div>
 
-        <div className="flex justify-around items-start overflow-visible -mt-32 -mb-32">
+        <div className="flex justify-around items-start mt-16">
           <CardTemplate
             classes="infoCard"
             title="Marketing"
@@ -161,7 +160,7 @@ export default function LandingPage() {
           </CardTemplate>
         </div>
       </section>
-      <section className="h-screen w-full bg-dark"></section>
+      {/* <section className="h-screen w-full bg-dark"></section> */}
     </>
   );
 }
