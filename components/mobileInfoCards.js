@@ -17,10 +17,10 @@ export default function AnimatedInfoCards() {
     slidesToScroll: 1,
   };
   return (
-    <div className="non_phone:hidden mt-6">
+    <div>
       <Slider {...settings}>
         <CardTemplate
-          classes="mx-auto"
+          classes="mx-auto phone:max-w-lg"
           title="Marketing"
           info={[
             "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
