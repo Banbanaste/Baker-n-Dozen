@@ -18,7 +18,7 @@ export default function BottomNav(props) {
         </div>
       </nav>
       <nav className="bg-dark w-full fixed bottom-0 z-50 py-2">
-        <div className="container mx-auto flex justify-between uppercase text-white py-2 px-4 font-semibold">
+        <div className="container mx-auto flex justify-between uppercase text-white py-2 px-2 font-semibold">
           <Link href="/">Marketing</Link>
           <Link href="/">Web</Link>
           <Link href="/">Projects</Link>

@@ -22,7 +22,7 @@ export default function AnimatedInfoCards() {
     prevArrow: <PrevArrow />,
   };
   return (
-    <div className="mt-6">
+    <div className="mt-6 non_phone:hidden">
       <Slider {...settings}>
         <CardTemplate
           classes="mx-auto phone:max-w-lg z-0"
