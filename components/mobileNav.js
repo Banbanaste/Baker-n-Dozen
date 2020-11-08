@@ -9,6 +9,9 @@ import { MdMailOutline } from "react-icons/md";
 // components
 import ContactButton from "./contactButton";
 
+// calendly
+import ContactBtn from "./contactButton";
+
 export default function BottomNav(props) {
   return (
     <div className="non_phone:hidden">
@@ -18,11 +21,17 @@ export default function BottomNav(props) {
         </div>
       </nav>
       <nav className="bg-dark w-full fixed bottom-0 z-50 py-2">
-        <div className="container mx-auto flex justify-between uppercase text-white py-2 px-2 font-semibold">
-          <Link href="/">Marketing</Link>
-          <Link href="/">Web</Link>
-          <Link href="/">Projects</Link>
-          <Link href="/">Contact</Link>
+        <div className="container mx-auto flex justify-between items-center uppercase text-white py-2 px-2 font-semibold text-4xl">
+          <Link href="/">
+            <TiSocialFacebookCircular />
+          </Link>
+          <Link href="/">
+            <TiSocialLinkedinCircular />
+          </Link>
+          <Link href="/">
+            <MdMailOutline />
+          </Link>
+          <ContactBtn classes="cursor-pointer text-base" />
         </div>
       </nav>
     </div>

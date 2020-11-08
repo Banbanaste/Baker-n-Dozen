@@ -7,7 +7,7 @@ import MobileNav from "../components/mobileNav";
 
 export default function IndexPage({ children, a, b, c }) {
   return (
-    <>
+    <div className="">
       <Head>
         <title>Caveman Consulting Co.</title>
         <link
@@ -26,6 +26,6 @@ export default function IndexPage({ children, a, b, c }) {
       <Nav a={a} b={b} c={c} />
       <MobileNav a={a} b={b} c={c} />
       {children}
-    </>
+    </div>
   );
 }

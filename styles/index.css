@@ -1,5 +1,9 @@
 @tailwind base;
 @tailwind components;
+html {
+  @apply bg-dark;
+  font-family: Futura, sans-serif;
+}
 @tailwind utilities;
 
 @font-face {
@@ -16,10 +20,6 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-}
-
-html {
-  font-family: Futura, sans-serif;
 }
 
 .gradient {

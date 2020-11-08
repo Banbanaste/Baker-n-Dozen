@@ -22,10 +22,10 @@ export default function AnimatedInfoCards() {
     prevArrow: <PrevArrow />,
   };
   return (
-    <div className="mt-6 non_phone:hidden">
-      <Slider {...settings}>
+    <section className="infoCard max-w-84 mx-auto phone:mb-20">
+      <Slider {...settings} className="">
         <CardTemplate
-          classes="mx-auto phone:max-w-lg z-0"
+          classes="mx-auto phone:max-w-lg"
           title="Marketing"
           info={[
             "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
@@ -110,6 +110,6 @@ export default function AnimatedInfoCards() {
           </div>
         </CardTemplate>
       </Slider>
-    </div>
+    </section>
   );
 }

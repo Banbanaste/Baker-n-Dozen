@@ -8,7 +8,7 @@ export default function ContactButton({ classes }) {
 
   return (
     <a className={classes} onClick={calendlyClick}>
-      Contact Us!
+      Contact
     </a>
   );
 }
