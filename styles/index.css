@@ -1,9 +1,22 @@
 @tailwind base;
 @tailwind components;
-html {
-  @apply bg-dark;
-  font-family: Futura, sans-serif;
+
+.section-default {
+  @apply mx-auto min-h-screen flex justify-center items-center;
 }
+
+.section-title {
+  @apply text-5xl font-bold text-center mb-16;
+}
+
+.project-image {
+  @apply transform duration-500;
+}
+
+.project-image:hover {
+  @apply scale-150 z-50;
+}
+
 @tailwind utilities;
 
 @font-face {
@@ -20,6 +33,11 @@ html {
   font-style: normal;
   font-weight: 700;
   font-display: swap;
+}
+
+html {
+  font-family: Futura, sans-serif;
+  background-color: #fafafa;
 }
 
 .gradient {

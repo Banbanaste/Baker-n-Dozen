@@ -7,7 +7,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { MdMailOutline } from "react-icons/md";
 
 // calendly
-import ContactBtn from "./contactButton";
+import ContactBtn from "../templates/contactButton";
 
 export default function Nav(props) {
   return (
@@ -19,8 +19,11 @@ export default function Nav(props) {
         <div>
           <Link href="/">Caveman Consulting Co.</Link>
         </div>
-        <div className="space-x-10 flex items-center text-3xl">
-          <div className="cursor-pointer">
+        <div className="space-x-10 ">
+          <Link href="/">Marketing</Link>
+          <Link href="/">Web</Link>
+          <Link href="/">Projects</Link>
+          {/* <div className="cursor-pointer">
             <Link href="/">
               <TiSocialFacebookCircular />
             </Link>
@@ -34,8 +37,8 @@ export default function Nav(props) {
             <Link href="/">
               <MdMailOutline />
             </Link>
-          </div>
-          <ContactBtn classes="cursor-pointer text-base" />
+          </div> */}
+          <ContactBtn classes="cursor-pointer" />
         </div>
       </div>
     </nav>

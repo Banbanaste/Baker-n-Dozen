@@ -6,11 +6,8 @@ import { TiSocialFacebookCircular } from "react-icons/ti";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { MdMailOutline } from "react-icons/md";
 
-// components
-import ContactButton from "./contactButton";
-
 // calendly
-import ContactBtn from "./contactButton";
+import ContactBtn from "../templates/contactButton";
 
 export default function BottomNav(props) {
   return (

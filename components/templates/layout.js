@@ -2,8 +2,8 @@
 import Head from "next/head";
 
 // components
-import Nav from "../components/nav";
-import MobileNav from "../components/mobileNav";
+import Nav from "../nav/nav";
+import MobileNav from "../nav/mobileNav";
 
 export default function IndexPage({ children, a, b, c }) {
   return (
