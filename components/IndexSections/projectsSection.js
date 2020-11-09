@@ -15,6 +15,7 @@ export default function ProjectSection() {
     <section
       aria-label="Schedule an Appointment to help your business."
       className="bg-dark"
+      id="projects"
     >
       <div className="container section-default">
         <div>
@@ -25,9 +26,9 @@ export default function ProjectSection() {
           </div>
           {isGraphic ? <AlphaGraphic /> : <AlphaInfo />}
 
-          <div className="flex items-end justify-end w-full mt-16">
+          <div className="flex items-end justify-end w-full phone:w-11/12 mt-16 phone:mt-6">
             <div
-              className="transform text-6xl text-white inline-block -rotate-45 cursor-pointer"
+              className="transform text-6xl phone:text-5xl text-white inline-block -rotate-45 cursor-pointer"
               onClick={() => setIsGraphic(!isGraphic)}
             >
               <GiStoneSpear />

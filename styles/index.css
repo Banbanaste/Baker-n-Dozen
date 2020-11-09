@@ -14,7 +14,7 @@
 }
 
 .project-image:hover {
-  @apply scale-150 z-50;
+  @apply z-50;
 }
 
 @tailwind utilities;
