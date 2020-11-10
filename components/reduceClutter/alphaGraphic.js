@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AlphaGraphic() {
   return (
-    <div className="flex phone:flex-wrap items-start phone:items-center justify-center w-96 non-phone:h-88 phone:w-screen h-88">
+    <div className="flex phone:flex-wrap items-start phone:items-center justify-center">
       <div className="project-image non_phone:w-84 non_phone:hover:scale-150">
         <Image src="/images/ac1.png" alt="Alphacladding Desktop View" unsized />
       </div>

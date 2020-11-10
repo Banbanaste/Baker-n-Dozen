@@ -7,10 +7,10 @@ export default function AnimatedInfoCards() {
   return (
     <section className="container section-default pb-32">
       <div className="w-full h-full">
-        <h1 className="section-title">Services</h1>
-        <div className=" flex flex-wrap justify-around items-start phone:items-center phone:justify-center h-96 phone:h-full">
+        <h1 className="section-title phone:mb-4">Services</h1>
+        <div className=" flex flex-wrap justify-around items-start phone:items-center phone:justify-center phone:h-full">
           <CardTemplate
-            classes="shadow-xl z-20 mr-16 phone:mr-0"
+            classes="m-8 shadow-xl z-20 "
             title="Marketing"
             info={[
               "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
@@ -19,7 +19,7 @@ export default function AnimatedInfoCards() {
             <MarketingCardImg />
           </CardTemplate>
           <CardTemplate
-            classes="mt-20 non_phone:self-center shadow-xl z-20"
+            classes="m-8 non_phone:mt-20 shadow-xl z-20"
             title="Web"
             info={[
               "We design, develop, deploy, and maintain web experiences so you can focus on growing your business. We create websites that will accomplish your goals, and increase your brand value.",
