@@ -5,7 +5,11 @@ export default function LandingPage() {
       className="container section-default "
     >
       <div className="rounded-full h-84 w-84 phone:w-64 phone:h-64 gradient flex flex-col justify-center items-center">
-        <div className="w-96 phone:w-72 text-center leading-snug">
+        <div
+          className="w-96 phone:w-72 text-center leading-snug"
+          data-aos="fade-down"
+          data-aos-once="true"
+        >
           <h1 className="text-5xl phone:text-3xl font-bold">
             Bring your business out of the Stone Age
           </h1>

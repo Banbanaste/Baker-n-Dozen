@@ -41,15 +41,7 @@ html {
 }
 
 .gradient {
-  background-color: #f1dd29;
-  background-image: linear-gradient(315deg, #f1dd29 18%, #fe4e4e 70%);
-}
-
-.opaque_gradient {
-  background-color: rgba(254, 78, 78, 0.1);
-  background-image: linear-gradient(
-    305deg,
-    rgba(241, 221, 41, 0.1),
-    rgba(254, 78, 78, 0.1) 90%
-  );
+  /* background-color: #f1dd29;
+  background-image: linear-gradient(315deg, #f1dd29 18%, #fe4e4e 70%); */
+  @apply bg-dark;
 }
