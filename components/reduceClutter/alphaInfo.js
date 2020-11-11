@@ -1,6 +1,6 @@
 export default function AlphaInfo() {
   return (
-    <div className="px-6 text-white pt-8 space-y-4 phone:w-screen">
+    <div className="px-6 text-white pt-8 space-y-4 lg:w-8/12">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

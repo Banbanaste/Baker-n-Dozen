@@ -1,7 +1,7 @@
 export default function CardTemplate(props) {
   return (
     <div
-      className={`transform rounded-lg bg-white w-78 bg-opacity-50 cursor-pointer hover:shadow-none duration-300 non_phone:hover:scale-150 ${props.classes}`}
+      className={`transform rounded-lg bg-white w-78 bg-opacity-50 cursor-pointer phone:hover:shadow-none duration-500 non_phone:hover:scale-125 ease-in-out ${props.classes}`}
       style={{ backdropFilter: "blur(30px)" }}
     >
       <div className="p-8">
