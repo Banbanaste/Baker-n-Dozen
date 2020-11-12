@@ -1,5 +1,6 @@
 // Next.js libraries
 import Link from "next/link";
+import Image from "next/image";
 
 // icons
 import { TiSocialFacebookCircular } from "react-icons/ti";
@@ -13,10 +14,16 @@ export default function Nav(props) {
   return (
     <nav className="bg-dark w-full phone:hidden fixed top-0 z-50 py-2 px-4">
       <div
-        className="container mx-auto flex justify-between uppercase text-white py-2"
+        className="container mx-auto flex justify-between items-center uppercase text-white py-2"
         style={{ fontWeight: "800" }}
       >
-        <div>
+        <div className="flex justify-between items-center space-x-8">
+          <Image
+            src="/images/temp.png"
+            alt="Caveman Consulting Co. Logo"
+            height="45"
+            width="45"
+          />
           <Link href="/">Caveman Consulting Co.</Link>
         </div>
         <div className="space-x-10 ">
@@ -38,7 +45,7 @@ export default function Nav(props) {
               <MdMailOutline />
             </Link>
           </div> */}
-          <ContactBtn classes="cursor-pointer" />
+          <ContactBtn classes="cursor-pointer">Contact</ContactBtn>
         </div>
       </div>
     </nav>

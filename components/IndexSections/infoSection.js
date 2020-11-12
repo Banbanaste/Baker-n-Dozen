@@ -5,36 +5,58 @@ import WebCardImg from "../reduceClutter/webCardImg";
 
 export default function AnimatedInfoCards() {
   return (
-    <section className="container section-default pb-32">
-      <div className="w-full h-full">
-        <h1 className="section-title phone:mb-4">Services</h1>
-        <div className=" flex flex-wrap justify-around items-start phone:items-center phone:justify-center phone:h-full">
-          <span data-aos="fade-down" data-aos-once="true" className="z-20">
-            <CardTemplate
-              classes="m-8 shadow-xl z-20 "
-              title="Marketing"
-              info={[
-                "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
-              ]}
+    <section className="bg-burg">
+      <div className="container section-default py-32">
+        <div>
+          <h1
+            className="section-title phone:mb-4 text-white"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease"
+            data-aos-once="true"
+          >
+            What We Do
+          </h1>
+          <div className="flex flex-wrap justify-around  phone:items-center phone:justify-center">
+            <span
+              className="z-20"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-duration="500"
+              data-aos-easing="ease"
+              data-aos-once="true"
             >
-              <MarketingCardImg />
-            </CardTemplate>
-          </span>
-          <span data-aos="fade-down" data-aos-once="true" className="z-20">
-            <CardTemplate
-              classes="m-8 non_phone:mt-20 shadow-xl z-20"
-              title="Web"
-              info={[
-                "We design, develop, deploy, and maintain web experiences so you can focus on growing your business. We create websites that will accomplish your goals, and increase your brand value.",
-                "We want your business to seemlesly flow throughout its various touch points on the internet. A website is crucial to any business, and with the right web presentation a business can thrive.",
-              ]}
+              <CardTemplate
+                classes="m-8 mt-0 shadow-xl z-20 "
+                title="Marketing"
+                info={[
+                  "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
+                ]}
+              >
+                <MarketingCardImg />
+              </CardTemplate>
+            </span>
+            <span
+              className="z-20"
+              data-aos="fade-down"
+              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-easing="ease"
+              data-aos-once="true"
             >
-              <WebCardImg />
-            </CardTemplate>
-          </span>
-
-          <div className="w-84 h-84 phone:w-64 phone:h-64 rounded-full gradient self-center absolute z-0" />
-          <div className="transform -translate-y-48 translate-x-32 w-48 h-48 phone:-translate-y-32 phone:translate-x-16 phone:w-32 phone:h-32 border-15 phone:border-4 border-light rounded-full gradient self-center absolute z-10" />
+              <CardTemplate
+                classes="m-8 mt-0 shadow-xl z-20"
+                title="Web"
+                info={[
+                  "We design, develop, deploy, and maintain web experiences so you can focus on growing your business. We create websites that will accomplish your goals, and increase your brand value.",
+                  "We want your business to seemlesly flow throughout its various touch points on the internet. A website is crucial to any business, and with the right web presentation a business can thrive.",
+                ]}
+              >
+                <WebCardImg />
+              </CardTemplate>
+            </span>
+          </div>
         </div>
       </div>
     </section>

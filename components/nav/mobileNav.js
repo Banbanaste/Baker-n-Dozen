@@ -28,7 +28,7 @@ export default function BottomNav(props) {
           <Link href="/">
             <MdMailOutline />
           </Link>
-          <ContactBtn classes="cursor-pointer text-base" />
+          <ContactBtn classes="cursor-pointer text-base">Contact</ContactBtn>
         </div>
       </nav>
     </div>

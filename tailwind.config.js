@@ -21,6 +21,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        burg: "#67001a",
         primary: "#FF0505",
         secondary: "#FF7830",
         code: "#00ff44",
