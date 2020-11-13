@@ -3,7 +3,7 @@ import CardTemplate from "../templates/cardTemplate";
 
 export default function AboutSection() {
   return (
-    <section className="bg-yellow-500">
+    <section className="bg-light">
       <div className="container section-default py-32">
         <div>
           <h1
@@ -26,7 +26,7 @@ export default function AboutSection() {
               data-aos-once="true"
             >
               <CardTemplate
-                classes="shadow-xl z-20 max-w-96 w-full"
+                classes="shadow-xl z-20 max-w-96 w-full bg-burg text-white"
                 title="Caveman Consulting Co."
                 info={[
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",

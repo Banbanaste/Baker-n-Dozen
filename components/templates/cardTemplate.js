@@ -8,7 +8,7 @@ export default function CardTemplate(props) {
         <p>{props.info[0]}</p>
         {props.info[1] && <p className="mt-4">{props.info[1]}</p>}
       </div>
-      <div className="w-full rounded-b-lg p-4 bg-gray-400 bg-opacity-50">
+      <div className="w-full p-4 bg-gray-400 bg-opacity-50">
         {props.children}
       </div>
     </div>

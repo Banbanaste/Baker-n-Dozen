@@ -17,14 +17,14 @@ export default function Nav(props) {
         className="container mx-auto flex justify-between items-center uppercase text-white py-2"
         style={{ fontWeight: "800" }}
       >
-        <div className="flex justify-between items-center space-x-8">
+        <div className="flex justify-between items-center space-x-4">
           <Image
-            src="/images/temp.png"
+            src="/images/logo_light.svg"
             alt="Caveman Consulting Co. Logo"
             height="45"
             width="45"
           />
-          <Link href="/">Caveman Consulting Co.</Link>
+          <Link href="/">Caveman Consulting</Link>
         </div>
         <div className="space-x-10 ">
           <Link href="/">Marketing</Link>

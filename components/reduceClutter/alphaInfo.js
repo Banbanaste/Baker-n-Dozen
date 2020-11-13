@@ -6,31 +6,23 @@ export default function AlphaInfo() {
       data-aos-once="true"
     >
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Alphacladding came to us with a specific goal in mind, "Make sure our
+        website communicates who we are." With that in mind we got to work on
+        the copy and flow of the website. We made sure the information clients
+        needed was easy to find and digest. From their logo we derived a playful
+        color scheme, yet maintained a professional and serious tone throughout
+        the website.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Apart from design Alphacladding required the implementation of a custom
+        CMS to update their website with both new projects and information about
+        their operations. With that in mind we implemented a custom Gatsby.js +
+        Netlify CMS solution. With this Alphacladding has been able to update
+        their website without hassel since day one. No learning curve there.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        We are happy we could assist Alphaccladding in its online debut. It was
+        a pleasure.
       </p>
     </div>
   );

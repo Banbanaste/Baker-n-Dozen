@@ -14,7 +14,7 @@ export default function BottomNav(props) {
     <div className="non_phone:hidden">
       <nav className="bg-dark w-full fixed top-0 z-50 py-2 ">
         <div className="container mx-auto flex justify-center uppercase text-white py-2 font-semibold">
-          <Link href="/">Caveman Consulting Co.</Link>
+          <Link href="/">Caveman Consulting</Link>
         </div>
       </nav>
       <nav className="bg-dark w-full fixed bottom-0 z-50 py-2">

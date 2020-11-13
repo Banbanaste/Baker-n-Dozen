@@ -29,7 +29,7 @@ export default function ProjectSection() {
           >
             Projects
           </h1>
-          <div className="bg-burg h-84" style={{ border: "solid 5px gold" }}>
+          <div className="bg-burg h-84">
             <div className="flex w-full justify-between items-center text-white text-2xl phone:text-lg font-bold pt-4 px-6">
               <h3
                 data-aos="fade-down"
