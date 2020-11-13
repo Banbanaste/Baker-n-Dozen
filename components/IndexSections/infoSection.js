@@ -7,7 +7,7 @@ export default function AnimatedInfoCards() {
   return (
     <section className="bg-burg">
       <div className="container section-default py-32">
-        <div>
+        <div className="w-full">
           <h1
             className="section-title phone:mb-4 text-white"
             data-aos="fade-down"
@@ -18,9 +18,9 @@ export default function AnimatedInfoCards() {
           >
             What We Do
           </h1>
-          <div className="flex flex-wrap justify-around  phone:items-center phone:justify-center">
+          <div className="flex flex-wrap justify-around w-full phone:items-center phone:justify-center">
             <span
-              className="z-20"
+              className="z-20 mb-12"
               data-aos="fade-down"
               data-aos-delay="300"
               data-aos-duration="500"
@@ -28,7 +28,7 @@ export default function AnimatedInfoCards() {
               data-aos-once="true"
             >
               <CardTemplate
-                classes="m-8 mt-0 shadow-xl z-20 "
+                classes="shadow-xl z-20 max-w-84 w-full"
                 title="Marketing"
                 info={[
                   "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
@@ -38,7 +38,7 @@ export default function AnimatedInfoCards() {
               </CardTemplate>
             </span>
             <span
-              className="z-20"
+              className="z-20 max-w-84 w-full"
               data-aos="fade-down"
               data-aos-delay="500"
               data-aos-duration="500"
@@ -46,7 +46,7 @@ export default function AnimatedInfoCards() {
               data-aos-once="true"
             >
               <CardTemplate
-                classes="m-8 mt-0 shadow-xl z-20"
+                classes="shadow-xl z-20"
                 title="Web"
                 info={[
                   "We design, develop, deploy, and maintain web experiences so you can focus on growing your business. We create websites that will accomplish your goals, and increase your brand value.",

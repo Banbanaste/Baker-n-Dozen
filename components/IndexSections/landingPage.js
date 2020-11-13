@@ -12,7 +12,10 @@ export default function LandingPage() {
       className=""
     >
       <div className="container section-default text-light">
-        <div className="flex flex-col justify-center items-center max-w-96 text-center bg-burg px-12 pb-20 pt-12 ">
+        <div
+          className="flex flex-col justify-center items-center max-w-96 text-center bg-burg px-8 pb-20 pt-12 shadow-lg"
+          style={{ border: "solid 5px gold" }}
+        >
           <div
             className="mb-8 flex items-center justify-center rounded-full"
             style={{ width: "100px", height: "100px", backgroundColor: "gold" }}
@@ -52,13 +55,15 @@ export default function LandingPage() {
             with a modern web experience and marketing campaign anything is
             possible
           </p>
-          <div className="space-x-10 flex ">
+          <div className="w-full flex flex-wrap-reverse justify-around items-center">
             <span
+              className=""
               data-aos="fade-down"
               data-aos-delay="550"
               data-aos-duration="500"
               data-aos-easing="ease"
               data-aos-once="true"
+              style={{ border: "solid 1px black" }}
             >
               <ContactBtn classes="duration-300 ease rounded-lg px-8 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 ">
                 Schedule a Consult
@@ -71,8 +76,8 @@ export default function LandingPage() {
               data-aos-easing="ease"
               data-aos-once="true"
             >
-              <span className=" duration-300 ease hover:opacity-50 font-bold">
-                <Link href="/">About Us</Link>
+              <span className="duration-300 ease hover:opacity-50 font-bold">
+                <Link href="/">More Info</Link>
               </span>
             </div>
           </div>
