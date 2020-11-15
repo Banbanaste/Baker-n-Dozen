@@ -21,6 +21,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        burg: "#67001a",
         primary: "#FF0505",
         secondary: "#FF7830",
         code: "#00ff44",
@@ -46,6 +47,14 @@ module.exports = {
       },
       maxWidth: {
         card: "22rem",
+        16: "16rem",
+        72: "20rem",
+        78: "24rem",
+        84: "29rem",
+        88: "35rem",
+        96: "45rem",
+      },
+      maxHeight: {
         16: "16rem",
         72: "20rem",
         78: "24rem",

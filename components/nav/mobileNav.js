@@ -1,5 +1,6 @@
 // next.js
 import Link from "next/link";
+import Image from "next/image";
 
 // icons
 import { TiSocialFacebookCircular } from "react-icons/ti";
@@ -13,22 +14,22 @@ export default function BottomNav(props) {
   return (
     <div className="non_phone:hidden">
       <nav className="bg-dark w-full fixed top-0 z-50 py-2 ">
-        <div className="container mx-auto flex justify-center uppercase text-white py-2 font-semibold">
-          <Link href="/">Caveman Consulting Co.</Link>
+        <div className="container mx-auto flex justify-center uppercase text-white py-2 font-semibold space-x-4 items-center">
+          <Image
+            src="/images/logo_dark.svg"
+            alt="Caveman Consulting Co. Logo"
+            height="45"
+            width="45"
+          />
+          <Link href="/">Caveman Consulting</Link>
         </div>
       </nav>
       <nav className="bg-dark w-full fixed bottom-0 z-50 py-2">
-        <div className="container mx-auto flex justify-between items-center uppercase text-white py-2 px-2 font-semibold text-4xl">
-          <Link href="/">
-            <TiSocialFacebookCircular />
-          </Link>
-          <Link href="/">
-            <TiSocialLinkedinCircular />
-          </Link>
-          <Link href="/">
-            <MdMailOutline />
-          </Link>
-          <ContactBtn classes="cursor-pointer text-base" />
+        <div className="container mx-auto flex justify-between items-center uppercase text-white py-2 px-2 font-semibold text-base">
+          <Link href="/">Home</Link>
+          <Link href="/marketing">Marketing</Link>
+          <Link href="/web">Web</Link>
+          <ContactBtn classes="cursor-pointer">Contact</ContactBtn>
         </div>
       </nav>
     </div>

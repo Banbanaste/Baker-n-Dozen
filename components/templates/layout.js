@@ -7,7 +7,7 @@ import MobileNav from "../nav/mobileNav";
 
 export default function IndexPage({ children, a, b, c }) {
   return (
-    <div className="">
+    <div className="" data-aos="fade">
       <Head>
         <title>Caveman Consulting Co.</title>
         <link

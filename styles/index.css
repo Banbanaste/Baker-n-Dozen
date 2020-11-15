@@ -6,11 +6,11 @@
 }
 
 .section-title {
-  @apply text-5xl font-bold text-center mb-10;
+  @apply text-5xl font-bold text-center mb-12;
 }
 
 .project-image {
-  @apply transform duration-500 ease-in-out rounded-xl h-full overflow-hidden max-w-16;
+  @apply transform duration-500 ease-in-out h-full overflow-hidden max-w-16;
 }
 
 .project-image:hover {
@@ -38,10 +38,4 @@
 html {
   font-family: Futura, sans-serif;
   background-color: #fafafa;
-}
-
-.gradient {
-  /* background-color: #f1dd29;
-  background-image: linear-gradient(315deg, #f1dd29 18%, #fe4e4e 70%); */
-  @apply bg-dark;
 }
