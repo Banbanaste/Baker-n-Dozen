@@ -54,6 +54,14 @@ module.exports = {
         88: "35rem",
         96: "45rem",
       },
+      maxHeight: {
+        16: "16rem",
+        72: "20rem",
+        78: "24rem",
+        84: "29rem",
+        88: "35rem",
+        96: "45rem",
+      },
       borderWidth: {
         15: "15px",
       },

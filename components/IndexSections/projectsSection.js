@@ -29,7 +29,7 @@ export default function ProjectSection() {
           >
             Projects
           </h1>
-          <div className="bg-burg pb-16">
+          <div className="bg-burg pb-16 h-96 ">
             <div className="flex w-full justify-between items-center text-white text-2xl phone:text-lg font-bold pt-4 px-6">
               <h3
                 data-aos="fade-down"

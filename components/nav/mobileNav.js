@@ -25,17 +25,11 @@ export default function BottomNav(props) {
         </div>
       </nav>
       <nav className="bg-dark w-full fixed bottom-0 z-50 py-2">
-        <div className="container mx-auto flex justify-between items-center uppercase text-white py-2 px-2 font-semibold text-4xl">
-          <Link href="/">
-            <TiSocialFacebookCircular />
-          </Link>
-          <Link href="/">
-            <TiSocialLinkedinCircular />
-          </Link>
-          <Link href="/">
-            <MdMailOutline />
-          </Link>
-          <ContactBtn classes="cursor-pointer text-base">Contact</ContactBtn>
+        <div className="container mx-auto flex justify-between items-center uppercase text-white py-2 px-2 font-semibold text-base">
+          <Link href="/">Home</Link>
+          <Link href="/marketing">Marketing</Link>
+          <Link href="/web">Web</Link>
+          <ContactBtn classes="cursor-pointer">Contact</ContactBtn>
         </div>
       </nav>
     </div>
