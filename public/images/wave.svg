@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1442px" height="483px" viewBox="0 0 1442 483" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wave</title>
+    <defs>
+        <rect id="path-1" x="0.826571447" y="1.02318154e-12" width="1440" height="483"></rect>
+    </defs>
+    <g id="a" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(0.000000, -541.000000)">
+            <g id="wave" transform="translate(0.173429, 541.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M1970.30002,483 L-516,483 C-289.062053,296.909586 -29.8129304,218.814321 261.747369,248.714206 C699.087817,293.564033 716.859759,-59.4950282 1453.96502,27.3383335 C1740.42468,61.0841992 1845.68308,-90.4718628 1977.23251,-203.064087 C2061.37575,-275.081695 2059.06492,-46.3936663 1970.30002,483 Z" id="Rectangle" fill="#D8D8D8" opacity="0.224144345" mask="url(#mask-2)"></path>
+                <path d="M1540.45786,517 L-146.173429,517 C7.77446172,390.76185 183.641284,337.784366 381.427038,358.067551 C678.105669,388.492327 690.161621,148.987659 1190.1917,207.892805 C1384.51733,230.784987 1455.92147,127.973904 1545.16066,51.5947193 C1602.24091,2.74013591 1600.67331,157.875229 1540.45786,517 Z" id="Rectangle" fill="#D8D8D8" opacity="0.224144345" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

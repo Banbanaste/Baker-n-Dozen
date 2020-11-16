@@ -1,3 +1,6 @@
+// next.js
+import Image from "next/image";
+
 // components
 import Layout from "../components/templates/layout";
 import CardTemplate from "../components/templates/cardTemplate";
@@ -9,6 +12,13 @@ export default function MarketingPage() {
   return (
     <Layout a="home" b="web" c="both">
       <section className="section-default bg-burg items-start pt-24 phone:pb-20">
+        <div className="fixed bottom-0 right-0 left-0">
+          <Image
+            src="/images/wave.svg"
+            alt="background waves for design stuffs"
+            unsized
+          />
+        </div>
         <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center">
           <div className="text-white text-center max-w-96 mx-auto">
             <h1

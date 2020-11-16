@@ -3,7 +3,7 @@ import CardTemplate from "../templates/cardTemplate";
 
 export default function AboutSection() {
   return (
-    <section className="bg-light">
+    <section className="bg-light" id="about">
       <div className="container section-default py-32">
         <div>
           <h1

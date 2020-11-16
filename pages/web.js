@@ -1,3 +1,6 @@
+// next.js
+import Image from "next/image";
+
 // components
 import Layout from "../components/templates/layout";
 import CardTemplate from "../components/templates/cardTemplate";
@@ -9,6 +12,13 @@ export default function MarketingPage() {
   return (
     <Layout a="home" b="marketing" c="both">
       <section className="section-default bg-dark items-start pt-24 phone:pb-20">
+        <div className="fixed bottom-0 right-0 left-0">
+          <Image
+            src="/images/wave.svg"
+            alt="background waves for design stuffs"
+            unsized
+          />
+        </div>
         <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center">
           <div className="text-white text-center max-w-96 mx-auto">
             <h1
@@ -28,13 +38,11 @@ export default function MarketingPage() {
               data-aos-easing="ease"
               data-aos-once="true"
             >
-              With our expertise of small, medium, and large business marketing
-              strategies. Caveman Consulting Co. can grow your business with
-              campaigns that you can stand behind! With an in-depth analysis of
-              your business’s goals and aspirations that will attract customers
-              at the right time when they are most likely to engage giving you
-              the best opportunity to attract users. We are about effectively
-              spending advertising dollars not quickly.
+              We curate a modern web experience for your end user. We want your
+              customers to get the full effect of your branding, product, and
+              service wether they be online or in person. We work in web design
+              and development to create a website that delivers value to you and
+              your customers.
             </p>
           </div>
           <span
@@ -60,7 +68,8 @@ export default function MarketingPage() {
                 classes="max-w-84 w-full mb-8"
                 title="E-comerce & Static Solutions"
                 info={[
-                  "Google can be the secret recipe to grow any online or even brick and mortar business. With Search Ads, Map Ads, Click to Call Ads Caveman Consulting Co. can provide all the coverage you will need to succeed on the Google search platform which is by far the most popular search engine for consumers.",
+                  "If you have a shopify or wordpress site and are looking for a tune up, or if you're starting from scratch; We will work side by side with you to make sure the platform you use is optimized for your business.",
+                  "We can create anything from custom shopify apps, to site speed otimizations.",
                 ]}
               />
             </span>
@@ -75,7 +84,7 @@ export default function MarketingPage() {
                 classes="max-w-84 w-full mb-8"
                 title="Custom Solutions"
                 info={[
-                  "Social Media has took the business world by storm and having a presence on social media is always a vital way to get gain traffic traction online. With our in-depth of analysis of your target audience our Facebook Marketing campaigns will allow target the right person for your brand. If you are looking to partner with other professionals in your industry our LinkedIn campaigns can be a powerful tool to attract professionals in target industries.",
+                  "Caveman Consulting Co. works within the Jamstack to create powerful web apps. Apart from the web, we can make anything under the sun with Javascript. Wether it be for web, mobile, or desktop a solution exsits, and is within your reach.",
                 ]}
               />
             </span>

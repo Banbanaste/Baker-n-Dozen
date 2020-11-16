@@ -1,5 +1,6 @@
 // next.js
 import Link from "next/link";
+import Image from "next/image";
 
 // components
 import CardTemplate from "../templates/cardTemplate";
@@ -11,7 +12,14 @@ import { logEvent } from "../../utils/analytics";
 
 export default function AnimatedInfoCards() {
   return (
-    <section className="bg-burg">
+    <section className="bg-burg relative">
+      <div className="absolute bottom-0 z-20">
+        <Image
+          src="/images/wave.svg"
+          alt="background waves for design stuffs"
+          unsized
+        />
+      </div>
       <div className="container section-default py-32">
         <div className="w-full">
           <h1

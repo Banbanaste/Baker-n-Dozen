@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function AlphaGraphic() {
   return (
-    <div className="flex justify-start px-4 pt-8 phone:pt-0">
+    <div className="flex justify-start px-4 phone:pt-0">
       <div
         data-aos="fade-down"
-        data-aos-delay="400"
+        data-aos-delay="200"
         data-aos-duration="500"
         data-aos-easing="ease"
         data-aos-once="true"
@@ -22,7 +22,7 @@ export default function AlphaGraphic() {
       <div
         className="z-20"
         data-aos="fade-down"
-        data-aos-delay="500"
+        data-aos-delay="100"
         data-aos-duration="500"
         data-aos-easing="ease"
         data-aos-once="true"
@@ -38,7 +38,7 @@ export default function AlphaGraphic() {
       <div
         className="z-10"
         data-aos="fade-down"
-        data-aos-delay="400"
+        data-aos-delay="200"
         data-aos-duration="500"
         data-aos-easing="ease"
         data-aos-once="true"

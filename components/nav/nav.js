@@ -19,7 +19,11 @@ export default function Nav(props) {
             height="45"
             width="45"
           />
-          <Link href="/">Caveman Consulting</Link>
+          <Link href="/">
+            <a className="text-sm">
+              Caveman <br /> Consulting
+            </a>
+          </Link>
         </div>
         <div className="space-x-10 ">
           <Link href="/marketing">Marketing</Link>

@@ -21,7 +21,11 @@ export default function BottomNav(props) {
             height="45"
             width="45"
           />
-          <Link href="/">Caveman Consulting</Link>
+          <Link href="/">
+            <a className="text-sm">
+              Caveman <br /> Consulting
+            </a>
+          </Link>
         </div>
       </nav>
       <nav className="bg-dark w-full fixed bottom-0 z-50 py-2">

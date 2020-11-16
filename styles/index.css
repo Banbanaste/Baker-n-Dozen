@@ -37,5 +37,6 @@
 
 html {
   font-family: Futura, sans-serif;
+  scroll-behavior: smooth;
   background-color: #fafafa;
 }
