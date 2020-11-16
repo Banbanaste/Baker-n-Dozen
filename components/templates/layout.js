@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+
 // Next.js libraries
 import Head from "next/head";
 
@@ -5,7 +7,13 @@ import Head from "next/head";
 import Nav from "../nav/nav";
 import MobileNav from "../nav/mobileNav";
 
+// google analytics
+import { logPageView } from "../../utils/analytics";
+
 export default function IndexPage({ children, a, b, c }) {
+  useEffect(() => {
+    logPageView();
+  }, []);
   return (
     <div className="" data-aos="fade">
       <Head>

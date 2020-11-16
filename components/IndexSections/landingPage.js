@@ -9,7 +9,7 @@ export default function LandingPage() {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
-      className=""
+      className="phone:bg-dark"
     >
       <div className="container section-default text-light">
         <div className="flex flex-col justify-center items-center max-w-96 text-center bg-burg px-8 pb-20 pt-0 shadow-lg">
