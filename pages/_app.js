@@ -5,7 +5,7 @@ import "../styles/index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { initGA } from "../utils/analytics";
+import { initGA, logPageView } from "../utils/analytics";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps }) {
     if (!window.GA_INITIALIZED) {
       initGA();
       window.GA_INITIALIZED = true;
+      logPageView();
     }
   }, []);
 

@@ -12,7 +12,7 @@ import { logPageView } from "../../utils/analytics";
 
 export default function IndexPage({ children, a, b, c }) {
   useEffect(() => {
-    logPageView();
+    window.GA_INITIALIZED && logPageView();
   }, []);
   return (
     <div className="" data-aos="fade">

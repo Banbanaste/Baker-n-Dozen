@@ -1,13 +1,17 @@
 // calendly
 import { openPopupWidget } from "react-calendly";
 
+// google analytics
+import { logContactView } from "../../utils/analytics";
+
 export default function ContactButton({ classes, children }) {
-  const calendlyClick = () => {
-    openPopupWidget({ url: "https://calendly.com/consultaion_test/marketing" });
+  const handleContactClick = () => {
+    openPopupWidget({ url: "https://calendly.com/cavemanconsulting" });
+    logContactView();
   };
 
   return (
-    <a className={classes} onClick={calendlyClick}>
+    <a className={classes} onClick={handleContactClick}>
       {children}
     </a>
   );

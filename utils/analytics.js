@@ -7,14 +7,29 @@ export const initGA = () => {
 };
 
 export const logPageView = () => {
-  console.log(`Logging pageview for ${window.location.pathname}`);
+  console.log(
+    `Logging pageview for ${window.location.pathname + window.location.search}`
+  );
   ReactGA.set({ page: window.location.pathname });
-  ReactGA.pageview(window.location.pathname);
+  ReactGA.pageview(window.location.pathname + window.location.search);
 };
 
-export const logEvent = (category = "", action = "") => {
-  if (category && action) {
-    ReactGA.event({ category, action });
+export const logContactView = () => {
+  console.log("Logging view of the contact form");
+  ReactGA.modalview(`${window.location.pathname}/contact`);
+  logEvent(
+    "PRE_CONVERSION",
+    `clicked contact button from ${window.location.pathname}`,
+    "CONTACT BUTTON"
+  );
+};
+
+export const logEvent = (category = "", action = "", label = "") => {
+  console.log(
+    `Logging event with category: ${category}, action: ${action}, label: ${label}`
+  );
+  if (category && action && label) {
+    ReactGA.event({ category, action, label });
   }
 };
 

@@ -6,6 +6,9 @@ import CardTemplate from "../templates/cardTemplate";
 import MarketingCardImg from "../reduceClutter/marketingCardImg";
 import WebCardImg from "../reduceClutter/webCardImg";
 
+// google analytics
+import { logEvent } from "../../utils/analytics";
+
 export default function AnimatedInfoCards() {
   return (
     <section className="bg-burg">
@@ -30,6 +33,13 @@ export default function AnimatedInfoCards() {
                 data-aos-duration="500"
                 data-aos-easing="ease"
                 data-aos-once="true"
+                onClick={() => {
+                  logEvent(
+                    "NAVIGATION",
+                    "Marketing card clicked, redirect user to /marketing",
+                    "MARKETING CARD"
+                  );
+                }}
               >
                 <CardTemplate
                   classes="shadow-xl z-20 max-w-84 w-full"
@@ -50,6 +60,13 @@ export default function AnimatedInfoCards() {
                 data-aos-duration="500"
                 data-aos-easing="ease"
                 data-aos-once="true"
+                onClick={() => {
+                  logEvent(
+                    "NAVIGATION",
+                    "Web card clicked, redirect user to /web",
+                    "WEB CARD"
+                  );
+                }}
               >
                 <CardTemplate
                   classes="shadow-xl z-20"

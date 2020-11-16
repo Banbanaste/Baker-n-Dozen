@@ -2,11 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-// icons
-import { TiSocialFacebookCircular } from "react-icons/ti";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { MdMailOutline } from "react-icons/md";
-
 // calendly
 import ContactBtn from "../templates/contactButton";
 
@@ -30,21 +25,6 @@ export default function Nav(props) {
           <Link href="/marketing">Marketing</Link>
           <Link href="/web">Web</Link>
           <Link href="/#projects">Projects</Link>
-          {/* <div className="cursor-pointer">
-            <Link href="/">
-              <TiSocialFacebookCircular />
-            </Link>
-          </div>
-          <div className="cursor-pointer">
-            <Link href="/">
-              <TiSocialLinkedinCircular />
-            </Link>
-          </div>
-          <div className="cursor-pointer">
-            <Link href="/">
-              <MdMailOutline />
-            </Link>
-          </div> */}
           <ContactBtn classes="cursor-pointer">Contact</ContactBtn>
         </div>
       </div>
