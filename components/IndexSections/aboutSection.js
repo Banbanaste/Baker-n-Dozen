@@ -29,7 +29,9 @@ export default function AboutSection() {
                 classes="shadow-xl z-20 max-w-96 w-full bg-burg text-white"
                 title="Caveman Consulting Co."
                 info={[
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                  "We are Brandon Ward & Roberto Banbanaste. Buddies from college, anytime we spent away from the bars was ideating on how we could start a business. A business that played to our individual strengths. With a shared passion for entrepreneurship we landed on Caveman Consulting Co.",
+                  "Now we spend our time working with businesses of diffrent sizes and at diffrent growth stages. Together we create stunning web experiences and marketing campaings. We collaborate with you one on one, on your schedule. We help you to fully take advantage of the technologies and strategies affored to you by todays cutting edge technologies.",
+                  "We are Caveman Consulting Co. and we are here to fully support your online endeavors. ",
                 ]}
               ></CardTemplate>
             </span>
