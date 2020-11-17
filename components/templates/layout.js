@@ -18,6 +18,7 @@ export default function IndexPage({ children, a, b, c }) {
     <div className="" data-aos="fade">
       <Head>
         <title>Caveman Consulting Co.</title>
+        <link rel="shortcut icon" href="/images/logo_icon.ico" />
         <link
           rel="preload"
           href="/fonts/Futura/Futura-Medium.ttf"
