@@ -14,7 +14,7 @@ export default function Nav(props) {
       >
         <div className="flex justify-between items-center space-x-4">
           <Image
-            src="/images/logo_dark.svg"
+            src="/images/logo_icon.png"
             alt="Caveman Consulting Co. Logo"
             height="45"
             width="45"

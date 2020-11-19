@@ -9,7 +9,7 @@ export default function CardTemplate(props) {
         {props.info[1] && <p className="mt-4">{props.info[1]}</p>}
         {props.info[2] && <p className="mt-4">{props.info[2]}</p>}
       </div>
-      <div className="w-full  p-4 bg-gray-400 bg-opacity-50 rounded-b">
+      <div className="w-full  bg-gray-400 bg-opacity-50 rounded-b">
         {props.children}
       </div>
     </div>

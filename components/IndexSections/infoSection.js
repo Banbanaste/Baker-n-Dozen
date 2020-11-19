@@ -12,7 +12,7 @@ import { logEvent } from "../../utils/analytics";
 
 export default function AnimatedInfoCards() {
   return (
-    <section className="bg-burg relative">
+    <section className="bg-burg relative" id="about">
       <div className="absolute bottom-0 z-20">
         <Image
           src="/images/wave.svg"

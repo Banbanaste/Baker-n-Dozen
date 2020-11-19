@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function MarketingCardImg() {
   return (
-    <div className="flex flex-col items-center justify-between space-y-4 py-2">
+    <div className="flex flex-col items-center justify-between space-y-4 p-4 py-6">
       <div className="w-32">
         <Image
           src="/images/google.png"

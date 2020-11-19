@@ -12,9 +12,9 @@ export default function LandingPage() {
       className="phone:bg-dark bg-light"
     >
       <div className="container section-default text-light">
-        <div className="relative overflow-hidden flex flex-col justify-center items-center max-w-96 text-center bg-burg px-8 pb-20 pt-0 shadow-lg rounded">
+        <div className="relative overflow-hidden flex flex-col justify-center items-center max-w-96 text-center bg-burg phone:bg-dark px-8 pb-20 pt-0 shadow-lg rounded">
           <div
-            className="absolute bottom-0 right-0 left-0 z-0"
+            className="absolute bottom-0 right-0 left-0 z-0 phone:hidden"
             style={{ width: "1900px" }}
           >
             <Image
@@ -33,7 +33,7 @@ export default function LandingPage() {
           >
             <span className="flex items-center justify-center rounded-full mb-10">
               <Image
-                src="/images/logo_dark.svg"
+                src="/images/logo_icon_red.png"
                 alt="Caveman Consulting Co. Logo"
                 height="100"
                 width="100"
@@ -70,7 +70,7 @@ export default function LandingPage() {
               data-aos-easing="ease"
               data-aos-once="true"
             >
-              <ContactBtn classes="duration-300 ease rounded-lg px-8 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 ">
+              <ContactBtn classes="duration-300 ease rounded-lg px-8 phone:px-4 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 ">
                 Schedule a Consult
               </ContactBtn>
             </span>

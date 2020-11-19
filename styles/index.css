@@ -40,3 +40,12 @@ html {
   scroll-behavior: smooth;
   background-color: #fafafa;
 }
+
+.projectCover {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.projectCover:hover {
+  opacity: 1;
+}

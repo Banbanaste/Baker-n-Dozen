@@ -22,6 +22,7 @@ module.exports = {
     extend: {
       colors: {
         burg: "#67001a",
+        ruby: "#9B2443",
         primary: "#FF0505",
         secondary: "#FF7830",
         code: "#00ff44",
