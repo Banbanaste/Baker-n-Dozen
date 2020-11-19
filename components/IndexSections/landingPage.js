@@ -9,36 +9,24 @@ export default function LandingPage() {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
-      className="phone:bg-dark bg-light"
+      className="section-default bg-bison bg-right-top bg-no-repeat"
     >
-      <div className="container section-default text-light">
-        <div className="relative overflow-hidden flex flex-col justify-center items-center max-w-96 text-center bg-burg phone:bg-dark px-8 pb-20 pt-0 shadow-lg rounded">
+      <div className="container text-light flex justify-start pl-32">
+        <div className="max-w-84">
           <div
-            className="absolute bottom-0 right-0 left-0 z-0 phone:hidden"
-            style={{ width: "1900px" }}
-          >
-            <Image
-              src="/images/wave.svg"
-              alt="background waves for design stuffs"
-              unsized
-            />
-          </div>
-          <div
-            className="pt-10 opacity-75 z-10"
+            className="mb-4"
             data-aos="fade-down"
             data-aos-delay="100"
             data-aos-duration="500"
             data-aos-easing="ease"
             data-aos-once="true"
           >
-            <span className="flex items-center justify-center rounded-full mb-10">
-              <Image
-                src="/images/logo_icon_red.png"
-                alt="Caveman Consulting Co. Logo"
-                height="100"
-                width="100"
-              />
-            </span>
+            <Image
+              src="/images/logo_icon_red.png"
+              alt="Caveman Consulting Co. Logo"
+              height="100"
+              width="100"
+            />
           </div>
           <h1
             className="text-5xl phone:text-3xl font-bold mb-6 z-10"
@@ -51,7 +39,7 @@ export default function LandingPage() {
             Bring your business out of the Stone Age
           </h1>
           <p
-            className="text-2xl phone:text-base font-medium mb-12 z-10"
+            className="text-3xl phone:text-base font-medium mb-12 z-10"
             data-aos="fade-down"
             data-aos-delay="450"
             data-aos-duration="500"
@@ -61,7 +49,7 @@ export default function LandingPage() {
             with a modern web experience and marketing campaign anything is
             possible
           </p>
-          <div className="w-full flex flex-wrap-reverse justify-around items-center z-10">
+          <div className="w-full flex space-x-10">
             <span
               className=""
               data-aos="fade-down"

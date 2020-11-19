@@ -8,10 +8,12 @@ import ProjectsSection from "../components/IndexSections/projectsSection";
 export default function IndexPage() {
   return (
     <Layout a="marketing" b="web" c="both">
-      <LandingPage />
-      <InfoSection />
-      <AboutSection />
-      <ProjectsSection />
+      <div className="max-w-screen-1xl bg-landscape bg-top bg-light_burg mx-auto">
+        <LandingPage />
+        <AboutSection />
+        <InfoSection />
+        <ProjectsSection />
+      </div>
     </Layout>
   );
 }

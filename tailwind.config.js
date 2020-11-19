@@ -20,7 +20,12 @@ module.exports = {
       Futura: ["Futura", "sans-serif"],
     },
     extend: {
+      backgroundImage: (theme) => ({
+        landscape: "url('/images/background.svg')",
+        bison: "url('/images/bison.png')",
+      }),
       colors: {
+        light_burg: "#9D3A53",
         burg: "#67001a",
         ruby: "#9B2443",
         primary: "#FF0505",
@@ -54,6 +59,7 @@ module.exports = {
         84: "29rem",
         88: "35rem",
         96: "45rem",
+        "screen-1xl": "1440px",
       },
       maxHeight: {
         16: "16rem",

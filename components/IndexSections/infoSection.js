@@ -12,14 +12,7 @@ import { logEvent } from "../../utils/analytics";
 
 export default function AnimatedInfoCards() {
   return (
-    <section className="bg-burg relative" id="about">
-      <div className="absolute bottom-0 z-20">
-        <Image
-          src="/images/wave.svg"
-          alt="background waves for design stuffs"
-          unsized
-        />
-      </div>
+    <section className="relative" id="about">
       <div className="container section-default py-32">
         <div className="w-full">
           <h1
