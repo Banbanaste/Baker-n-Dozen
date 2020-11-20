@@ -2,7 +2,7 @@
 @tailwind components;
 
 .section-default {
-  @apply mx-auto min-h-screen flex justify-center items-center;
+  @apply mx-auto min-h-screen flex justify-center items-center px-4;
 }
 
 .section-title {
@@ -38,5 +38,13 @@
 html {
   font-family: Futura, sans-serif;
   scroll-behavior: smooth;
-  background-color: #fafafa;
+}
+
+.projectCover {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.projectCover:hover {
+  opacity: 1;
 }

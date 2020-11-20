@@ -10,7 +10,7 @@ import MobileNav from "../nav/mobileNav";
 // google analytics
 import { logPageView } from "../../utils/analytics";
 
-export default function IndexPage({ children, a, b, c }) {
+export default function IndexPage({ children }) {
   useEffect(() => {
     window.GA_INITIALIZED && logPageView();
   }, []);
@@ -32,8 +32,8 @@ export default function IndexPage({ children, a, b, c }) {
           crossOrigin=""
         />
       </Head>
-      <Nav a={a} b={b} c={c} />
-      <MobileNav a={a} b={b} c={c} />
+      <Nav />
+      <MobileNav />
       {children}
     </div>
   );

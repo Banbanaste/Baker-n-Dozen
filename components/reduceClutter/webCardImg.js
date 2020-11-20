@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function WebCardImg() {
   return (
-    <div className="flex flex-wrap items-end justify-between py-4">
+    <div className="flex flex-wrap items-end justify-between p-4 py-6">
       <div className="w-16">
         <Image
           layout="fill"

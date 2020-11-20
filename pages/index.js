@@ -8,10 +8,15 @@ import ProjectsSection from "../components/IndexSections/projectsSection";
 export default function IndexPage() {
   return (
     <Layout a="marketing" b="web" c="both">
-      <LandingPage />
-      <InfoSection />
-      <AboutSection />
-      <ProjectsSection />
+      <div
+        className="bg-landscape bg-center bg-light_burg mx-auto bg-no-repeat"
+        style={{ backgroundPositionY: "-140px", backgroundPositionX: "-340px" }}
+      >
+        <LandingPage />
+        <AboutSection />
+        <InfoSection />
+        <ProjectsSection />
+      </div>
     </Layout>
   );
 }

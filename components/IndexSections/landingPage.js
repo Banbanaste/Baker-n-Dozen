@@ -9,36 +9,35 @@ export default function LandingPage() {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
-      className="phone:bg-dark bg-light"
+      className="section-default overflow relative"
+      style={{}}
     >
-      <div className="container section-default text-light">
-        <div className="relative overflow-hidden flex flex-col justify-center items-center max-w-96 text-center bg-burg px-8 pb-20 pt-0 shadow-lg rounded">
+      <div className="absolute top-0 right-0 pointer-events-none w-7/12 flex justify-end">
+        <Image
+          className=""
+          src="/images/bison.png"
+          alt="Ooh a Bison"
+          height="1066"
+          width="677"
+        />
+      </div>
+
+      <div className="container text-light flex justify-start xl:pl-32 z-20">
+        <div className="max-w-84 2xl:max-w-96">
           <div
-            className="absolute bottom-0 right-0 left-0 z-0"
-            style={{ width: "1900px" }}
-          >
-            <Image
-              src="/images/wave.svg"
-              alt="background waves for design stuffs"
-              unsized
-            />
-          </div>
-          <div
-            className="pt-10 opacity-75 z-10"
+            className="mb-4"
             data-aos="fade-down"
             data-aos-delay="100"
             data-aos-duration="500"
             data-aos-easing="ease"
             data-aos-once="true"
           >
-            <span className="flex items-center justify-center rounded-full mb-10">
-              <Image
-                src="/images/logo_dark.svg"
-                alt="Caveman Consulting Co. Logo"
-                height="100"
-                width="100"
-              />
-            </span>
+            <Image
+              src="/images/logo_icon_red.png"
+              alt="Caveman Consulting Co. Logo"
+              height="100"
+              width="100"
+            />
           </div>
           <h1
             className="text-5xl phone:text-3xl font-bold mb-6 z-10"
@@ -51,7 +50,7 @@ export default function LandingPage() {
             Bring your business out of the Stone Age
           </h1>
           <p
-            className="text-2xl phone:text-base font-medium mb-12 z-10"
+            className="text-3xl phone:text-base font-medium mb-12 z-10"
             data-aos="fade-down"
             data-aos-delay="450"
             data-aos-duration="500"
@@ -61,16 +60,16 @@ export default function LandingPage() {
             with a modern web experience and marketing campaign anything is
             possible
           </p>
-          <div className="w-full flex flex-wrap-reverse justify-around items-center z-10">
+          <div className="w-full flex flex-wrap">
             <span
-              className=""
+              className=" mr-10 mb-6"
               data-aos="fade-down"
               data-aos-delay="550"
               data-aos-duration="500"
               data-aos-easing="ease"
               data-aos-once="true"
             >
-              <ContactBtn classes="duration-300 ease rounded-lg px-8 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 ">
+              <ContactBtn classes="duration-300 ease rounded-lg px-8 phone:px-4 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 ">
                 Schedule a Consult
               </ContactBtn>
             </span>
@@ -81,7 +80,7 @@ export default function LandingPage() {
               data-aos-easing="ease"
               data-aos-once="true"
             >
-              <span className="duration-300 ease hover:opacity-50 font-bold">
+              <span className="duration-300 ease hover:opacity-50 font-bold ">
                 <Link href="/#about">More Info</Link>
               </span>
             </div>
