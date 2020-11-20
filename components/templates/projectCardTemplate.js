@@ -1,13 +1,6 @@
 export default function ProjectCardTemplate(props) {
   return (
-    <div
-      className="transform bg-ruby text-light cursor-pointer max-w-72 relative m-4"
-      data-aos="fade-down"
-      data-aos-delay={`${props.delay}00`}
-      data-aos-duration="500"
-      data-aos-easing="ease"
-      data-aos-once="true"
-    >
+    <div className="transform bg-ruby text-light cursor-pointer max-w-72 relative m-4">
       <div className="duration-300 ease-in-out absolute text-light z-50 w-full h-full flex justify-center items-center text-4xl font-bold projectCover">
         More Info
       </div>

@@ -12,28 +12,16 @@ import { logEvent } from "../../utils/analytics";
 
 export default function AnimatedInfoCards() {
   return (
-    <section className="relative" id="about">
+    <section className="relative" id="about" data-aos="fade">
       <div className="container section-default py-32">
         <div className="w-full">
-          <h1
-            className="section-title phone:mb-4 text-light phone:text-3xl"
-            data-aos="fade-down"
-            data-aos-delay="100"
-            data-aos-duration="500"
-            data-aos-easing="ease"
-            data-aos-once="true"
-          >
+          <h1 className="section-title phone:mb-4 text-light phone:text-3xl">
             What We Do
           </h1>
           <div className="flex flex-wrap justify-around w-full phone:items-center phone:justify-center">
             <Link href="/marketing">
               <span
                 className="z-20 mb-12"
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="500"
-                data-aos-easing="ease"
-                data-aos-once="true"
                 onClick={() => {
                   logEvent(
                     "NAVIGATION",
@@ -56,11 +44,6 @@ export default function AnimatedInfoCards() {
             <Link href="/web">
               <span
                 className="z-20 max-w-84 w-full"
-                data-aos="fade-down"
-                data-aos-delay="500"
-                data-aos-duration="500"
-                data-aos-easing="ease"
-                data-aos-once="true"
                 onClick={() => {
                   logEvent(
                     "NAVIGATION",
