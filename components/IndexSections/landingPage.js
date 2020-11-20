@@ -12,13 +12,13 @@ export default function LandingPage() {
       className="section-default overflow relative"
       style={{}}
     >
-      <div className="absolute top-0 right-0 pointer-events-none w-96">
+      <div className="absolute top-0 right-0 pointer-events-none w-7/12 flex justify-end">
         <Image
-          className="absolute top-0 right-0 pointer-events-none"
-          layout="fill"
+          className=""
           src="/images/bison.png"
           alt="Ooh a Bison"
-          unsized
+          height="1066"
+          width="677"
         />
       </div>
 

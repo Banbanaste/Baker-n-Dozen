@@ -7,32 +7,32 @@ export default function MarketingCardImg() {
       <div className="w-32">
         <Image
           src="/images/google.png"
+          className="w-full"
           alt="Google logo"
-          loading="eager"
           unsized
         />
       </div>
       <div className="w-32">
         <Image
           src="/images/facebook.png"
+          className="w-full"
           alt="Facebook logo"
-          loading="eager"
           unsized
         />
       </div>
       <div className="w-32">
         <Image
           src="/images/instagram.png"
+          className="w-full"
           alt="Instagram logo"
-          loading="eager"
           unsized
         />
       </div>
       <div className="w-32">
         <Image
           src="/images/linkedin.png"
+          className="w-full"
           alt="LinkedIn logo"
-          loading="eager"
           unsized
         />
       </div>

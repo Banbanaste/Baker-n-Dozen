@@ -33,7 +33,7 @@ export default function ProjectSection() {
                     <Image
                       src="/images/ac_head.png"
                       alt="Instagram logo"
-                      loading="eager"
+                      className="w-full"
                       unsized
                     />
                   </div>
@@ -41,7 +41,6 @@ export default function ProjectSection() {
               </a>
             </Link>
           </div>
-          {/* <ProjectTemplate /> */}
         </div>
       </div>
     </section>
