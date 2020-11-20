@@ -34,7 +34,8 @@ export default function ProjectSection() {
                       src="/images/ac_head.png"
                       alt="Instagram logo"
                       className="w-full"
-                      unsized
+                      width="400"
+                      height="285"
                     />
                   </div>
                 </ProjectCardTemplate>

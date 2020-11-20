@@ -9,14 +9,27 @@ export default function WebCardImg() {
           layout="fill"
           src="/images/js.png"
           alt="Javascript logo"
-          unsized
+          height="100"
+          width="100"
         />
       </div>
       <div className="w-20">
-        <Image layout="fill" src="/images/aws.png" alt="AWS logo" unsized />
+        <Image
+          layout="fill"
+          src="/images/aws.png"
+          alt="AWS logo"
+          height="134"
+          width="208"
+        />
       </div>
       <div className="w-16">
-        <Image layout="fill" src="/images/gql.png" alt="GraphQL logo" unsized />
+        <Image
+          layout="fill"
+          src="/images/gql.png"
+          alt="GraphQL logo"
+          height="100"
+          width="100"
+        />
       </div>
     </div>
   );

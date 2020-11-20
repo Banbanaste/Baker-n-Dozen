@@ -12,7 +12,7 @@ export default function ProjectCardTemplate(props) {
         More Info
       </div>
       <div>
-        <div className="py-8">
+        <div className="py-4 px-1">
           <h1 className="font-bold text-2xl text-center tracking-widest">
             {props.title}
           </h1>

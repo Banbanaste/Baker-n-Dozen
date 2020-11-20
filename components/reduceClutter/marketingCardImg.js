@@ -9,7 +9,8 @@ export default function MarketingCardImg() {
           src="/images/google.png"
           className="w-full"
           alt="Google logo"
-          unsized
+          height="51"
+          width="150"
         />
       </div>
       <div className="w-32">
@@ -17,7 +18,8 @@ export default function MarketingCardImg() {
           src="/images/facebook.png"
           className="w-full"
           alt="Facebook logo"
-          unsized
+          height="30"
+          width="150"
         />
       </div>
       <div className="w-32">
@@ -25,7 +27,8 @@ export default function MarketingCardImg() {
           src="/images/instagram.png"
           className="w-full"
           alt="Instagram logo"
-          unsized
+          height="52"
+          width="150"
         />
       </div>
       <div className="w-32">
@@ -33,7 +36,8 @@ export default function MarketingCardImg() {
           src="/images/linkedin.png"
           className="w-full"
           alt="LinkedIn logo"
-          unsized
+          height="39"
+          width="150"
         />
       </div>
     </div>
