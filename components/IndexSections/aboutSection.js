@@ -20,7 +20,7 @@ export default function AboutSection() {
             <div className="max-w-96 text-left space-y-10 text-2xl phone:text-xl phone:space-y-6">
               <p
                 data-aos="fade-down"
-                data-aos-delay="200"
+                data-aos-delay="150"
                 data-aos-duration="500"
                 data-aos-easing="ease"
                 data-aos-once="true"
@@ -33,7 +33,7 @@ export default function AboutSection() {
               </p>
               <p
                 data-aos="fade-down"
-                data-aos-delay="300"
+                data-aos-delay="200"
                 data-aos-duration="500"
                 data-aos-easing="ease"
                 data-aos-once="true"
@@ -47,7 +47,7 @@ export default function AboutSection() {
               </p>
               <p
                 data-aos="fade-down"
-                data-aos-delay="400"
+                data-aos-delay="250"
                 data-aos-duration="500"
                 data-aos-easing="ease"
                 data-aos-once="true"

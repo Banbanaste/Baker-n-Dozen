@@ -20,6 +20,7 @@ export default function BottomNav(props) {
             alt="Caveman Consulting Co. Logo"
             height="45"
             width="45"
+            priority
           />
           <Link href="/">
             <a className="text-sm">

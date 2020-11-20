@@ -16,6 +16,7 @@ export default function Nav(props) {
               alt="Caveman Consulting Co. Logo"
               height="45"
               width="45"
+              priority
             />
           </a>
         </Link>

@@ -12,13 +12,17 @@ export default function LandingPage() {
       className="section-default overflow relative"
       style={{}}
     >
-      <div className="absolute top-0 right-0 pointer-events-none w-7/12 flex justify-end">
+      <div
+        className="absolute top-0 right-0 pointer-events-none w-7/12 flex justify-end"
+        data-aos="fade"
+      >
         <Image
-          className=""
           src="/images/bison.png"
           alt="Ooh a Bison"
           height="1066"
           width="677"
+          layout="intrinsic"
+          priority
         />
       </div>
 
@@ -37,6 +41,7 @@ export default function LandingPage() {
               alt="Caveman Consulting Co. Logo"
               height="100"
               width="100"
+              priority
             />
           </div>
           <h1
