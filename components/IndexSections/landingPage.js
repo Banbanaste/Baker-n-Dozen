@@ -10,8 +10,6 @@ export default function LandingPage() {
     <section
       aria-label="Schedule an Appointment to help your business."
       className="section-default overflow relative"
-      data-aos="fade"
-      style={{}}
     >
       <div className="absolute top-0 right-0 pointer-events-none w-7/12 flex justify-end">
         <Image
