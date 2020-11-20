@@ -7,7 +7,7 @@ import ContactBtn from "../templates/contactButton";
 
 export default function Nav(props) {
   return (
-    <nav className="w-full phone:hidden fixed top-0 z-50 pt-10 px-4">
+    <nav className="transform duration-500 w-full phone:hidden fixed top-0 z-50 pt-10 px-4">
       <div className="container mx-auto flex justify-center items-center uppercase text-white py-2 space-x-10 tracking-widest text-sm font-bold">
         <Link href="/">
           <a className="text-sm">

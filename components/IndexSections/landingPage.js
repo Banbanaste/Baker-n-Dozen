@@ -9,10 +9,21 @@ export default function LandingPage() {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
-      className="section-default bg-bison bg-right-top bg-no-repeat"
+      className="section-default overflow relative"
+      style={{}}
     >
-      <div className="container text-light flex justify-start pl-32">
-        <div className="max-w-84">
+      <div className="absolute top-0 right-0 pointer-events-none w-96">
+        <Image
+          className="absolute top-0 right-0 pointer-events-none"
+          layout="fill"
+          src="/images/bison.png"
+          alt="Ooh a Bison"
+          unsized
+        />
+      </div>
+
+      <div className="container text-light flex justify-start xl:pl-32 z-20">
+        <div className="max-w-84 2xl:max-w-96">
           <div
             className="mb-4"
             data-aos="fade-down"
@@ -49,9 +60,9 @@ export default function LandingPage() {
             with a modern web experience and marketing campaign anything is
             possible
           </p>
-          <div className="w-full flex space-x-10">
+          <div className="w-full flex flex-wrap">
             <span
-              className=""
+              className=" mr-10 mb-6"
               data-aos="fade-down"
               data-aos-delay="550"
               data-aos-duration="500"
@@ -69,7 +80,7 @@ export default function LandingPage() {
               data-aos-easing="ease"
               data-aos-once="true"
             >
-              <span className="duration-300 ease hover:opacity-50 font-bold">
+              <span className="duration-300 ease hover:opacity-50 font-bold ">
                 <Link href="/#about">More Info</Link>
               </span>
             </div>

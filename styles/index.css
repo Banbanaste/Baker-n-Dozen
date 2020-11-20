@@ -2,7 +2,7 @@
 @tailwind components;
 
 .section-default {
-  @apply mx-auto min-h-screen flex justify-center items-center px-10;
+  @apply mx-auto min-h-screen flex justify-center items-center px-4;
 }
 
 .section-title {

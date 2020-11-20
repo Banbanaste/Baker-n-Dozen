@@ -7,7 +7,7 @@ export default function AboutSection() {
       <div className="container section-default py-20 text-light">
         <div className="px-4">
           <h1
-            className="section-title phone:mb-4"
+            className="section-title phone:mb-4 phone:text-3xl phone:text-left"
             data-aos="fade-down"
             data-aos-delay="100"
             data-aos-duration="500"
@@ -17,7 +17,7 @@ export default function AboutSection() {
             Who We Are
           </h1>
           <div className="flex flex-wrap justify-around  phone:items-center phone:justify-center">
-            <div className="max-w-96 text-left space-y-10 text-2xl">
+            <div className="max-w-96 text-left space-y-10 text-2xl phone:text-xl phone:space-y-6">
               <p
                 data-aos="fade-down"
                 data-aos-delay="200"

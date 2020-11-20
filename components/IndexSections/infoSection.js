@@ -16,7 +16,7 @@ export default function AnimatedInfoCards() {
       <div className="container section-default py-32">
         <div className="w-full">
           <h1
-            className="section-title phone:mb-4 text-light"
+            className="section-title phone:mb-4 text-light phone:text-3xl"
             data-aos="fade-down"
             data-aos-delay="100"
             data-aos-duration="500"

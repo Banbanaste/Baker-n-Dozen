@@ -16,7 +16,7 @@ export default function ProjectSection() {
       <div className="container mx-auto flex justify-center items-start pt-20">
         <div className="w-full">
           <h1
-            className="section-title text-light text-left ml-4 mb-8"
+            className="section-title text-light text-left ml-4 mb-8 phone:text-3xl"
             data-aos="fade-down"
             data-aos-delay="100"
             data-aos-duration="500"
