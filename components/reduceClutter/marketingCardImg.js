@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function MarketingCardImg() {
   return (
-    <div className="flex flex-col items-center justify-between space-y-4 p-4 py-6">
-      <div className="w-32">
+    <div className="flex flex-wrap items-end justify-between flex-wrap space-y-4 ">
+      <div className="w-32 h-20 flex items-center">
         <Image
           src="/images/google.png"
           className="w-full"
@@ -13,7 +13,7 @@ export default function MarketingCardImg() {
           width="150"
         />
       </div>
-      <div className="w-32">
+      <div className="w-32 h-20 flex items-center">
         <Image
           src="/images/facebook.png"
           className="w-full"
@@ -22,7 +22,7 @@ export default function MarketingCardImg() {
           width="150"
         />
       </div>
-      <div className="w-32">
+      <div className="w-32 h-20 flex items-center">
         <Image
           src="/images/instagram.png"
           className="w-full"
@@ -31,7 +31,7 @@ export default function MarketingCardImg() {
           width="150"
         />
       </div>
-      <div className="w-32">
+      <div className="w-32 h-20 flex items-center">
         <Image
           src="/images/linkedin.png"
           className="w-full"

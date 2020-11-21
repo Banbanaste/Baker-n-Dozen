@@ -31,7 +31,7 @@ export default function AnimatedInfoCards() {
                 }}
               >
                 <CardTemplate
-                  classes="shadow-xl z-20 max-w-84 w-full"
+                  classes="z-20 max-w-84 w-full"
                   title="Marketing"
                   info={[
                     "Trying to attreact more clients to grow revenue? Our marketing plans are the perfect option for you. Fromn Google Advertising to Social Media, we can grow your book of business in as little as 60 days.",
@@ -53,7 +53,7 @@ export default function AnimatedInfoCards() {
                 }}
               >
                 <CardTemplate
-                  classes="shadow-xl z-20"
+                  classes="z-20"
                   title="Web"
                   info={[
                     "We design, develop, deploy, and maintain web experiences so you can focus on growing your business. We create websites that will accomplish your goals, and increase your brand value.",
