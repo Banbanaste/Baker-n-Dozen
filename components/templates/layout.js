@@ -31,6 +31,10 @@ export default function IndexPage({ children }) {
           as="font"
           crossOrigin=""
         />
+        <meta
+          name="Description"
+          content="Caveman Consulting Co. is a Web Development and Marketing company. We help businesses curate online experiences and sales funnels that help them increse their book of business."
+        ></meta>
       </Head>
       <Nav />
       <MobileNav />

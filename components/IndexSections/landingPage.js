@@ -29,7 +29,7 @@ export default function LandingPage() {
               src="/images/logo_icon_red.png"
               alt="Caveman Consulting Co. Logo"
               height="100"
-              width="100"
+              width="97"
               priority
             />
           </div>
