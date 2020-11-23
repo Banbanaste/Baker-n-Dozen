@@ -28,21 +28,21 @@ export default function AnimatedInfoCards() {
     <section className="relative" id="about" data-aos="fade">
       <div className="section-default">
         <div className="max-w-96 text-light">
-          <h1 className="section-title mb-10 phone:mb-4 phone:text-3xl">
+          <h1 className="section-title mb-4 phone:mb-4 phone:text-3xl">
             What We Do
           </h1>
-          <div className="max-w-96 text-white flex justify-start text-4xl mx-auto flex-wrap my-10 bg-dark rounded-2xl bg-opacity-75">
-            <div className="opacity-50 hover:opacity-100  duration-300 duration-300 m-4">
+          <div className="max-w-96 text-white flex justify-start text-4xl mx-auto flex-wrap mb-4 bg-dark rounded-xl bg-opacity-75">
+            <div className="opacity-50 hover:opacity-100 hover:text-red-500  duration-300 duration-300 m-4">
               <a href="https://ads.google.com/home/" target="_blank">
                 <GrGoogle />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-pink-500  duration-300 m-4">
               <a target="_blank" href="https://graphql.org/">
                 <GrGraphQl />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-blue-400 duration-300 m-4">
               <a
                 target="_blank"
                 href="https://business.linkedin.com/marketing-solutions"
@@ -50,37 +50,37 @@ export default function AnimatedInfoCards() {
                 <FaLinkedinIn />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-green-400  duration-300 m-4">
               <a target="_blank" href="https://developers.shopify.com/">
                 <FaShopify />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-blue-700 duration-300 m-4">
               <a target="_blank" href="https://www.facebook.com/business">
                 <GrFacebook />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-blue-500 duration-300 m-4">
               <a target="_blank" href="https://reactjs.org/">
                 <GrReactjs />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 duration-300 m-4">
               <a target="_blank" href="https://business.instagram.com/">
                 <GrInstagram />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-green-300 duration-300 m-4">
               <a target="_blank" href="https://tailwindcss.com/">
                 <SiTailwindcss />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-purple-900 duration-300 m-4">
               <a target="_blank" href="https://aws.amazon.com/">
                 <FaAws />
               </a>
             </div>
-            <div className="opacity-50 hover:opacity-100  duration-300 m-4">
+            <div className="opacity-50 hover:opacity-100 hover:text-yellow-500 duration-300 m-4">
               <a
                 target="_blank"
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -91,7 +91,7 @@ export default function AnimatedInfoCards() {
           </div>
           <Link href="/marketing">
             <div
-              className="text-2xl phone:text-xl mb-10 cursor-pointer hover:underline"
+              className="text-2xl phone:text-xl mb-4 cursor-pointer bg-dark p-6 rounded-xl bg-opacity-75 hover:opacity-50 duration-300"
               onClick={() => {
                 logEvent(
                   "NAVIGATION",
@@ -100,7 +100,7 @@ export default function AnimatedInfoCards() {
                 );
               }}
             >
-              <h2 className="uppercase text-3xl phone:text-2xl font-bold mb-4 underline">
+              <h2 className="uppercase text-3xl phone:text-2xl font-bold mb-4">
                 Marketing
               </h2>
               <p>
@@ -114,7 +114,7 @@ export default function AnimatedInfoCards() {
 
           <Link href="/web">
             <div
-              className="text-2xl phone:text-xl cursor-pointer hover:underline"
+              className="text-2xl phone:text-xl cursor-pointer bg-dark p-6 rounded-xl bg-opacity-75 hover:opacity-50 duration-300"
               onClick={() => {
                 logEvent(
                   "NAVIGATION",
@@ -123,10 +123,10 @@ export default function AnimatedInfoCards() {
                 );
               }}
             >
-              <h2 className="uppercase text-3xl phone:text-2xl font-bold mb-4 underline">
+              <h2 className="uppercase text-3xl phone:text-2xl font-bold mb-4 ">
                 Web Development
               </h2>
-              <p className="mb-6">
+              <p className="mb-2">
                 We design, develop, deploy, and maintain web experiences so you
                 can focus on growing your business. We create websites that will
                 accomplish your goals, and increase your brand value.
