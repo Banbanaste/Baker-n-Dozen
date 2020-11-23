@@ -31,21 +31,7 @@ export default function AnimatedInfoCards() {
           <h1 className="section-title mb-10 phone:mb-4 phone:text-3xl">
             What We Do
           </h1>
-          <Link href="/marketing">
-            <div className="text-2xl phone:text-xl mb-10 cursor-pointer hover:underline">
-              <h2 className="uppercase text-3xl phone:text-2xl font-bold mb-4 underline">
-                Marketing
-              </h2>
-              <p>
-                Trying to attract more clients to grow revenue? Our marketing
-                plans are the perfect option for you. Fromn Google Advertising
-                to Social Media, we can grow your book of business in as little
-                as 60 days.
-              </p>
-            </div>
-          </Link>
-
-          <div className="max-w-96 text-white flex justify-start text-4xl mx-auto flex-wrap my-10">
+          <div className="max-w-96 text-white flex justify-start text-4xl mx-auto flex-wrap my-10 bg-dark rounded-2xl bg-opacity-75">
             <div className="opacity-50 hover:opacity-100  duration-300 duration-300 m-4">
               <a href="https://ads.google.com/home/" target="_blank">
                 <GrGoogle />
@@ -103,8 +89,40 @@ export default function AnimatedInfoCards() {
               </a>
             </div>
           </div>
+          <Link href="/marketing">
+            <div
+              className="text-2xl phone:text-xl mb-10 cursor-pointer hover:underline"
+              onClick={() => {
+                logEvent(
+                  "NAVIGATION",
+                  "Marketing card clicked, redirect user to /marketing",
+                  "MARKETING CARD"
+                );
+              }}
+            >
+              <h2 className="uppercase text-3xl phone:text-2xl font-bold mb-4 underline">
+                Marketing
+              </h2>
+              <p>
+                Trying to attract more clients to grow revenue? Our marketing
+                plans are the perfect option for you. Fromn Google Advertising
+                to Social Media, we can grow your book of business in as little
+                as 60 days.
+              </p>
+            </div>
+          </Link>
+
           <Link href="/web">
-            <div className="text-2xl phone:text-xl cursor-pointer hover:underline">
+            <div
+              className="text-2xl phone:text-xl cursor-pointer hover:underline"
+              onClick={() => {
+                logEvent(
+                  "NAVIGATION",
+                  "Web card clicked, redirect user to /web",
+                  "WEB CARD"
+                );
+              }}
+            >
               <h2 className="uppercase text-3xl phone:text-2xl font-bold mb-4 underline">
                 Web Development
               </h2>
