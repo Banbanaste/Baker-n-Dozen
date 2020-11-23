@@ -51,7 +51,7 @@ export default function AnimatedInfoCards() {
               </a>
             </div>
             <div className="opacity-50 hover:opacity-100  duration-300 m-4">
-              <a target="_blank" href="https://www.shopify.com/">
+              <a target="_blank" href="https://developers.shopify.com/">
                 <FaShopify />
               </a>
             </div>
