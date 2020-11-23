@@ -12,14 +12,14 @@ export default function MarketingPage() {
   return (
     <Layout a="home" b="marketing" c="both">
       <section className="section-default bg-dark items-start pt-24 phone:pb-20">
-        <div className="fixed bottom-0 right-0 left-0">
+        <div className="fixed bottom-0 right-0 left-0 z-0">
           <Image
             src="/images/wave.svg"
             alt="background waves for design stuffs"
             unsized
           />
         </div>
-        <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center">
+        <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center z-10">
           <div className="text-white text-center max-w-96 mx-auto">
             <h1
               className="text-5xl font-bold mb-8"
@@ -65,7 +65,7 @@ export default function MarketingPage() {
               data-aos-once="true"
             >
               <CardTemplate
-                classes="max-w-84 w-full mb-8"
+                classes="max-w-84 w-full mb-8 bg-white text-dark "
                 title="E-comerce & Static Solutions"
                 info={[
                   "If you have a shopify or wordpress site and are looking for a tune up, or if you're starting from scratch; We will work side by side with you to make sure the platform you use is optimized for your business.",
@@ -81,7 +81,7 @@ export default function MarketingPage() {
               data-aos-once="true"
             >
               <CardTemplate
-                classes="max-w-84 w-full mb-8"
+                classes="max-w-84 w-full mb-8 bg-white text-dark"
                 title="Custom Solutions"
                 info={[
                   "Caveman Consulting Co. works within the Jamstack to create powerful web apps. Apart from the web, we can make anything under the sun with Javascript. Wether it be for web, mobile, or desktop a solution exsits, and is within your reach.",

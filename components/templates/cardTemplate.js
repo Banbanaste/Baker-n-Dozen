@@ -1,7 +1,7 @@
 export default function CardTemplate(props) {
   return (
     <div
-      className={`cursor-pointer duration-500 ease-in-out flex flex-col justify-between text-white ${props.classes}`}
+      className={`flex flex-col justify-between text-white ${props.classes}`}
     >
       <div className="p-8 text-xl">
         <h1 className="font-bold text-2xl mb-4">{props.title}</h1>

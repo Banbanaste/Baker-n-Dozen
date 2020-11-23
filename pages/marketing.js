@@ -67,7 +67,7 @@ export default function MarketingPage() {
               data-aos-once="true"
             >
               <CardTemplate
-                classes="max-w-84 w-full mb-8"
+                classes="max-w-84 w-full mb-8 bg-white text-dark"
                 title="Google Advertising"
                 info={[
                   "Google can be the secret recipe to grow any online or even brick and mortar business. With Search Ads, Map Ads, Click to Call Ads Caveman Consulting Co. can provide all the coverage you will need to succeed on the Google search platform which is by far the most popular search engine for consumers.",
@@ -82,7 +82,7 @@ export default function MarketingPage() {
               data-aos-once="true"
             >
               <CardTemplate
-                classes="max-w-84 w-full mb-8"
+                classes="max-w-84 w-full mb-8 bg-white text-dark"
                 title="Social Media Advertising"
                 info={[
                   "Social Media has took the business world by storm and having a presence on social media is always a vital way to get gain traffic traction online. With our in-depth of analysis of your target audience our Facebook Marketing campaigns will allow target the right person for your brand. If you are looking to partner with other professionals in your industry our LinkedIn campaigns can be a powerful tool to attract professionals in target industries.",
