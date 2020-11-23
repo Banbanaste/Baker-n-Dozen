@@ -26,7 +26,7 @@ import { IoLogoJavascript } from "react-icons/io";
 export default function AnimatedInfoCards() {
   return (
     <section className="relative" id="about" data-aos="fade">
-      <div className="section-default flex-col py-32">
+      <div className="section-default">
         <div className="max-w-96 text-light">
           <h1 className="section-title mb-10 phone:mb-4 phone:text-3xl">
             What We Do
@@ -140,7 +140,6 @@ export default function AnimatedInfoCards() {
             </div>
           </Link>
         </div>
-        <div className="w-full py-4 mt-8 text-white"></div>
       </div>
     </section>
   );
