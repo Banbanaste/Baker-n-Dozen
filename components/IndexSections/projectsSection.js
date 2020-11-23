@@ -11,9 +11,11 @@ export default function ProjectSection() {
       aria-label="Schedule an Appointment to help your business."
       className="bg-dark pb-20"
       id="projects"
-      data-aos="fade"
     >
-      <div className="container mx-auto flex justify-center items-start pt-20">
+      <div
+        className="container mx-auto flex justify-center items-start pt-20"
+        data-aos="fade"
+      >
         <div className="w-full">
           <h1 className="section-title text-light text-left ml-4 mb-8 phone:text-3xl">
             Projects
