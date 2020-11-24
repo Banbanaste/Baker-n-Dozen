@@ -27,6 +27,7 @@ module.exports = {
       }),
       colors: {
         light_burg: "#9D3A53",
+        tone: "#EEDCC3",
         burg: "#67001a",
         ruby: "#9B2443",
         primary: "#FF0505",

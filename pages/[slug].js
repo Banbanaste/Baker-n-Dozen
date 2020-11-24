@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 
+// next.js
+import Image from "next/image";
+
 // contentful
 import { fetchContentfulGQL, initQuery, whereQuery } from "../utils/contentful";
 
@@ -16,17 +19,12 @@ function Post(props) {
 
   useEffect(() => {
     setBody(
-      <div className="max-w-96 mx-auto text-left text-2xl phone:text-base space-y-10 phone:space-y-4">
+      <div className="max-w-96 mx-auto text-left text-2xl phone:text-xl space-y-10 phone:space-y-4">
         {props.description.json.content.map((text) => {
           return (
             <p
-              data-aos="fade-down"
-              data-aos-delay={`${
-                props.description.json.content.indexOf(text) + 1
-              }00`}
-              data-aos-duration="500"
-              data-aos-easing="ease"
-              data-aos-once="true"
+              id={`p${props.description.json.content.indexOf(text)}`}
+              data-aos="fade"
             >
               {text.content[0].value}
             </p>
@@ -36,34 +34,21 @@ function Post(props) {
     );
 
     setImages(
-      <div className="container mx-auto flex flex-wrap justify-center mt-16">
+      <div className="container mx-auto flex flex-wrap justify-center phone:justify-start mt-8 phone:mb-24 phone:space-y-10">
         {props.imagesCollection.items.map((img) => {
           if (img.title != `${props.name.toLowerCase()} header`) {
             return (
               <div
-                className="w-48 h-72 overflow-hidden mx-4 shadow-xl phone:hidden"
-                data-aos="fade-down"
-                data-aos-delay={`${
-                  props.imagesCollection.items.indexOf(img) + 1
-                }00`}
-                data-aos-duration="500"
-                data-aos-easing="ease"
-                data-aos-once="true"
+                className="w-56 phone:w-full phone:max-w-84 h-72 overflow-hidden mx-4 shadow-xl phone:m-0"
+                data-aos="fade"
               >
                 <img src={img.url} alt={img.title} />
               </div>
             );
           } else {
             return (
-              <div
-                className="w-full"
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="500"
-                data-aos-easing="ease"
-                data-aos-once="true"
-              >
-                <div className="max-w-84 -mb-24 mx-auto shadow-xl">
+              <div className="w-full" data-aos="fade">
+                <div className="max-w-84 mx-auto phone:m-0 shadow-xl mb-10">
                   <img src={img.url} alt={img.title} />
                 </div>
               </div>
@@ -74,33 +59,31 @@ function Post(props) {
     );
   }, []);
 
+  console.log(body, images);
+
   return (
     <Layout>
-      <section className="section-default">
-        <div className="container mx-auto text-burg min-h-screen pt-32 phone:pt-24 phone:px-4">
+      <section className="section-default bg-light_burg relative">
+        <div className="absolute z-0">
+          <Image
+            src="/images/proj_bg.svg"
+            alt="background waves for design stuffs"
+            unsized
+          />
+        </div>
+        <div className="container mx-auto text-tone min-h-screen pt-32 phone:pt-24 phone:px-4 z-20">
           <div className="max-w-96 mx-auto text-left text-2xl mb-6">
             <span className="flex flex-wrap items-center justify-between">
               <a
                 className="text-5xl phone:text-3xl font-bold "
                 href={props.website}
                 target="_blank"
-                data-aos="fade-down"
-                data-aos-delay="100"
-                data-aos-duration="500"
-                data-aos-easing="ease"
-                data-aos-once="true"
+                data-aos="fade"
               >
                 {props.name}
               </a>
-              <div
-                className="flex items-center phone:text-xl phone:mt-4"
-                data-aos="fade-down"
-                data-aos-delay="200"
-                data-aos-duration="500"
-                data-aos-easing="ease"
-                data-aos-once="true"
-              >
-                <h3 className="tracking-wide mr-10 font-bold">
+              <div className="flex items-center phone:text-xl " data-aos="fade">
+                <h3 className="tracking-wide mr-6 font-bold">
                   {isGraphic ? "1" : "2"} / 2
                 </h3>
                 <div
