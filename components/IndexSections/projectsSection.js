@@ -21,7 +21,7 @@ export default function ProjectSection() {
             Projects
           </h1>
           <div className="flex flex-wrap">
-            <Link href="/alphacladding">
+            <Link href="/projects/alphacladding">
               <a>
                 <ProjectCardTemplate title="ALPHACLADDING" delay="2">
                   <div className="">

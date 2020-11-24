@@ -4,10 +4,14 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
 // contentful
-import { fetchContentfulGQL, initQuery, whereQuery } from "../utils/contentful";
+import {
+  fetchContentfulGQL,
+  initQuery,
+  whereQuery,
+} from "../../utils/contentful";
 
 // components
-import Layout from "../components/templates/layout";
+import Layout from "../../components/templates/layout";
 
 // icons
 import { GiStoneSpear } from "react-icons/gi";
@@ -59,8 +63,6 @@ function Post(props) {
     );
   }, []);
 
-  console.log(body, images);
-
   return (
     <Layout>
       <section className="section-default bg-light_burg relative">
@@ -104,11 +106,13 @@ function Post(props) {
 
 export const getStaticPaths = async () => {
   const { data } = await fetchContentfulGQL(initQuery);
-  const paths = data.projectCollection.items.map((project) => ({
-    params: {
-      slug: project.name.toLowerCase(),
-    },
-  }));
+  const paths = data.projectCollection.items.map((project) => {
+    return {
+      params: {
+        slug: project.name.toLowerCase(),
+      },
+    };
+  });
 
   return {
     paths,
