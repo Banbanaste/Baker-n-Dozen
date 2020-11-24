@@ -13,7 +13,7 @@ export default function ProjectSection() {
       id="projects"
     >
       <div
-        className="container mx-auto flex justify-center items-start pt-20"
+        className="container mx-auto flex justify-center items-start pt-20 "
         data-aos="fade"
       >
         <div className="w-full">

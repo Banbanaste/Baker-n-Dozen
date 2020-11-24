@@ -12,23 +12,22 @@ export default function AboutSection() {
           <div className="flex flex-wrap justify-around  phone:items-center phone:justify-center">
             <div className="max-w-96 text-left space-y-10 text-2xl phone:text-xl phone:space-y-6">
               <p>
-                We are Brandon Ward & Roberto Banbanaste. Buddies from college,
-                anytime we spent away from the bars was ideating on how we could
-                start a business. A business that played to our individual
-                strengths. With a shared passion for entrepreneurship we landed
-                on Caveman Consulting Co.
+                We are Caveman Consulting Co. We play to our individual
+                strengths and do what we know best. With a shared passion for
+                entrepreneurship we use these strengths to help businesses grow.
+                We want you to succeed, simple as that.
               </p>
               <p>
-                Now we spend our time working with businesses of diffrent sizes
-                and at diffrent growth stages. Together we create stunning web
-                experiences and marketing campaigns. We collaborate with you one
-                on one, on your schedule. We help you to fully take advantage of
-                the technologies and strategies affored to you by todays cutting
+                We work with businesses of diffrent sizes and at diffrent growth
+                stages. Together we create stunning web experiences and
+                marketing campaigns. We collaborate with you one on one, on your
+                schedule. We help you to fully take advantage of the
+                technologies and strategies affored to you by todays cutting
                 edge technologies.
               </p>
               <p>
-                We are Caveman Consulting Co. and we are here to fully support
-                your online endeavors.
+                We are Caveman Consulting Co. a Marketing and Web Development
+                firm that works hard for the success of its clients.
               </p>
             </div>
           </div>
