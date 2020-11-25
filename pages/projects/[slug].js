@@ -16,7 +16,7 @@ import Layout from "../../components/templates/layout";
 // icons
 import { GiStoneSpear } from "react-icons/gi";
 
-function Post(props) {
+function ContentfulProject(props) {
   const [isGraphic, setIsGraphic] = useState(true);
   const [body, setBody] = useState();
   const [images, setImages] = useState();
@@ -132,4 +132,4 @@ export const getStaticProps = async ({ params: { slug } }) => {
   };
 };
 
-export default Post;
+export default ContentfulProject;
