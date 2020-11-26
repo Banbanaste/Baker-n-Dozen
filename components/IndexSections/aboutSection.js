@@ -12,18 +12,22 @@ export default function AboutSection() {
           <div className="flex flex-wrap justify-around  phone:items-center phone:justify-center">
             <div className="max-w-96 text-left space-y-10 text-2xl phone:text-xl phone:space-y-6">
               <p>
-                We are Caveman Consulting Co. We play to our individual
-                strengths and do what we know best. With a shared passion for
-                entrepreneurship we use these strengths to help businesses grow.
-                We want you to succeed, simple as that.
+                Here at Caveman Consulting Co., we’re passionate about who we
+                are and what we do. We play to our individual strengths and do
+                what we know best. With a shared passion for entrepreneurship we
+                use our expertise in marketing, branding, and more to help
+                businesses grow. We want you to succeed – it’s as simple as
+                that.
               </p>
               <p>
-                We work with businesses of diffrent sizes and at diffrent growth
-                stages. Together we create stunning web experiences and
-                marketing campaigns. We collaborate with you one on one, on your
-                schedule. We help you to fully take advantage of the
-                technologies and strategies affored to you by todays cutting
-                edge technologies.
+                We work with businesses of different sizes and at different
+                growth stages. Together, we create stunning websites that offer
+                a seamless user experience and marketing campaigns. We
+                specialize in UX design and web development, along with digital
+                marketing, where collaboration with our clients remains out top
+                priority – all on your schedule. We help our clients take
+                advantage of the technologies and strategies available in
+                today’s world through the use of cutting-edge technologies.
               </p>
               <p>
                 We are Caveman Consulting Co. a Marketing and Web Development

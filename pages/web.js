@@ -40,9 +40,9 @@ export default function MarketingPage() {
             >
               We curate a modern web experience for your end user. We want your
               customers to get the full effect of your branding, product, and
-              service wether they be online or in person. We work in web design
-              and development to create a website that delivers value to you and
-              your customers.
+              services, whether they be online or in person. We work in web
+              design and development to create a website that delivers value to
+              you and your customers.
             </p>
           </div>
           <span
@@ -68,8 +68,8 @@ export default function MarketingPage() {
                 classes="max-w-84 w-full mb-8 bg-white text-dark "
                 title="E-comerce & Static Solutions"
                 info={[
-                  "If you have a shopify or wordpress site and are looking for a tune up, or if you're starting from scratch; We will work side by side with you to make sure the platform you use is optimized for your business.",
-                  "We can create anything from custom shopify apps, to site speed otimizations.",
+                  "If you have a Shopify or WordPress site and are looking for a tune up, or if you're starting from scratch, our team will work side by side with you to make sure the platform you use is optimized for your business.",
+                  "We can create anything from site speed optimizations to Shopify apps.",
                 ]}
               />
             </span>
@@ -84,7 +84,7 @@ export default function MarketingPage() {
                 classes="max-w-84 w-full mb-8 bg-white text-dark"
                 title="Custom Solutions"
                 info={[
-                  "Caveman Consulting Co. works within the Jamstack to create powerful web apps. Apart from the web, we can make anything under the sun with Javascript. Wether it be for web, mobile, or desktop a solution exsits, and is within your reach.",
+                  "Caveman Consulting Co. works within the Jamstack to create powerful web applications. Apart from the web, we can make anything under the sun with Javascript. Whether it be for web, mobile, or desktop a solution exists, and is within your reach.",
                 ]}
               />
             </span>

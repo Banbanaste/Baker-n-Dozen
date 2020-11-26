@@ -1,11 +1,5 @@
 // next.js
 import Link from "next/link";
-import Image from "next/image";
-
-// components
-import CardTemplate from "../templates/cardTemplate";
-import MarketingCardImg from "../reduceClutter/marketingCardImg";
-import WebCardImg from "../reduceClutter/webCardImg";
 
 // google analytics
 import { logEvent } from "../../utils/analytics";
@@ -17,7 +11,6 @@ import {
   GrInstagram,
   GrReactjs,
   GrGraphQl,
-  GrLinkedin,
 } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
 import { FaAws, FaShopify, FaLinkedinIn } from "react-icons/fa";
@@ -104,10 +97,10 @@ export default function AnimatedInfoCards() {
                 Marketing
               </h2>
               <p>
-                Trying to attract more clients to grow revenue? Our marketing
-                plans are the perfect option for you. Fromn Google Advertising
-                to Social Media, we can grow your book of business in as little
-                as 60 days.
+                Trying to attract more clients to grow your revenue? Our
+                marketing plans are the perfect option for you. From Google
+                Advertising to Social Media, we can grow your book of business
+                in as little as 60 days.
               </p>
             </div>
           </Link>
@@ -127,15 +120,16 @@ export default function AnimatedInfoCards() {
                 Web Development
               </h2>
               <p className="mb-2">
-                We design, develop, deploy, and maintain web experiences so you
+                We design, develop, deploy, and maintain your website, so you
                 can focus on growing your business. We create websites that will
                 accomplish your goals, and increase your brand value.
               </p>
               <p>
-                We want your business to seemlesly flow throughout its various
-                touch points on the internet. A website is crucial to any
-                business, and with the right web presentation a business can
-                thrive.
+                We want your business to seamlessly flow throughout its various
+                touch points on the internet because that’s the most likely
+                place where new leads will discover you, your products, or your
+                services. A website is crucial to any business, and with the
+                right web presentation, a business can thrive.
               </p>
             </div>
           </Link>

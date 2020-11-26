@@ -37,8 +37,8 @@ export default function LandingPage() {
             Bring your business out of the Stone Age
           </h1>
           <p className="text-3xl phone:text-base font-medium mb-12 z-10">
-            with a modern web experience and marketing campaign anything is
-            possible
+            Take advantage of a modern web experience and an advanced digital
+            marketing campaign to take your business to new heights.
           </p>
           <div className="w-full flex flex-wrap">
             <span className=" mr-10 mb-6">
