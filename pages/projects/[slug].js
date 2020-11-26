@@ -64,7 +64,7 @@ function ContentfulProject(props) {
   }, []);
 
   return (
-    <Layout>
+    <Layout description={props.meta}>
       <section className="section-default bg-light_burg relative">
         <div className="absolute z-0">
           <Image

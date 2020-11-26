@@ -15,6 +15,7 @@ query{
     items{
       id
       name
+      meta
       website
       description{
         json

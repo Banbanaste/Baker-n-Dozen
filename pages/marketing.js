@@ -10,7 +10,7 @@ import ContactButton from "../components/templates/contactButton";
 
 export default function MarketingPage() {
   return (
-    <Layout a="home" b="web" c="both">
+    <Layout description="Our Marketing Services are for any sized Business that wants to grow their revenue. No matter if the goal is to Gain Leads, Spread the Word, or Gain Clients. Our personalized Marketing Campaign Management that is tailored to your business needs will grow your company effectively. We specialize in Google Advertising Services, Pay Per Click Campaigns, Social Media Marketing, and Local Service Advertising.">
       <section className="section-default bg-burg items-start pt-24 phone:pb-20">
         <div className="fixed bottom-0 right-0 left-0 z-0">
           <Image
