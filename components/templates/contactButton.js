@@ -4,9 +4,13 @@ import { openPopupWidget } from "react-calendly";
 // google analytics
 import { logContactView } from "../../utils/analytics";
 
-export default function ContactButton({ classes, children }) {
+export default function ContactButton({ classes, children, sale }) {
   const handleContactClick = () => {
-    openPopupWidget({ url: "https://calendly.com/cavemanconsulting" });
+    openPopupWidget({
+      url: !sale
+        ? "https://calendly.com/cavemanconsulting"
+        : "https://calendly.com/cavemanconsulting/black-friday-sale",
+    });
     logContactView();
   };
 

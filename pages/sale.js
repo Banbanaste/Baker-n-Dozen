@@ -25,7 +25,10 @@ export default function MarketingPage() {
             <h3 className="text-2xl font-bold text-dark mb-12">
               Free Landing Page with any Marketing Campaign. $500 value!
             </h3>
-            <ContactButton classes="bg-light_burg text-dark py-2 px-20 text-3xl font-bold rounded-full hover:opacity-50 duration-300 cursor-pointer">
+            <ContactButton
+              classes="bg-light_burg text-dark py-2 px-20 text-3xl font-bold rounded-full hover:opacity-50 duration-300 cursor-pointer"
+              sale={true}
+            >
               Book Now
             </ContactButton>
           </div>
