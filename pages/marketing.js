@@ -59,7 +59,7 @@ export default function MarketingPage() {
             data-aos-once="true"
           >
             <ContactButton classes="rounded-lg bg-white hover:opacity-25 duration-300 cursor-pointer px-8 py-2 ">
-              Schdeule a 15 mintue Consultaion Now
+              Schedule a 15 mintue Consultaion Now
             </ContactButton>
           </span>
           <div className="flex flex-wrap justify-around w-full">
