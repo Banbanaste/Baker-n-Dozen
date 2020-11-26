@@ -10,14 +10,19 @@ import MobileNav from "../nav/mobileNav";
 // google analytics
 import { logPageView } from "../../utils/analytics";
 
-export default function IndexPage({ description, children }) {
+export default function IndexPage({ title, description, children }) {
   useEffect(() => {
     window.GA_INITIALIZED && logPageView();
   }, []);
   return (
-    <div className="" data-aos="fade">
+    <div data-aos="fade">
       <Head>
-        <title>Caveman Consulting Co.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <meta name="Description" content={description}></meta>
+        <meta property="og:title" content={title} key="ogtitle" />
+        <meta property="og:description" content={description} key="ogdesc" />
+        <title>{title}</title>
         <link rel="shortcut icon" href="/images/logo_icon.ico" />
         <link
           rel="preload"
@@ -31,7 +36,6 @@ export default function IndexPage({ description, children }) {
           as="font"
           crossOrigin=""
         />
-        <meta name="Description" content={description}></meta>
       </Head>
       <Nav />
       <MobileNav />

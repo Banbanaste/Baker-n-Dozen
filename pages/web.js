@@ -10,7 +10,10 @@ import ContactButton from "../components/templates/contactButton";
 
 export default function MarketingPage() {
   return (
-    <Layout description="Our Web Development Services include all the dynamics needed to run your business online. For any E-Comm, Service Provider, Consulting, or Small Business our websites will display your business in an elegant professional way that will blow your customers and clients away! We specialize in Jamstack, Landing Pages, CMS, Next.js, Gatsby.js, React.js, Javascript, AWS, E-commerce, Shopify, Big Commerce, Static, Responsive, Dynamic, Server Side Rendering, Static Site Generator.">
+    <Layout
+      title="Caveman | Web Development"
+      description="Our Web Development Services include all the dynamics needed to run your business online. For any E-Comm, Service Provider, Consulting, or Small Business our websites will display your business in an elegant professional way that will blow your customers and clients away! We specialize in Jamstack, Landing Pages, CMS, Next.js, Gatsby.js, React.js, Javascript, AWS, E-commerce, Shopify, Big Commerce, Static, Responsive, Dynamic, Server Side Rendering, Static Site Generator."
+    >
       <section className="section-default bg-dark items-start pt-24 phone:pb-20">
         <div className="fixed bottom-0 right-0 left-0 z-0">
           <Image

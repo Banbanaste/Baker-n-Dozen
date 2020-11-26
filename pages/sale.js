@@ -9,7 +9,10 @@ import ContactButton from "../components/templates/contactButton";
 
 export default function MarketingPage() {
   return (
-    <Layout description="Black Friday Sale! Get a Free Landing Page with any Marketing Campaign. Save $500 Today! Book a 15 minute consultation! Sale Ends 12/4/2020.">
+    <Layout
+      title="Caveman | Black Friday"
+      description="Black Friday Sale! Get a Free Landing Page with any Marketing Campaign. Save $500 Today! Book a 15 minute consultation! Sale Ends 12/4/2020."
+    >
       <section
         className="section-default flex-col pt-24"
         style={{

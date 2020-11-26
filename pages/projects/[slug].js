@@ -64,7 +64,7 @@ function ContentfulProject(props) {
   }, []);
 
   return (
-    <Layout description={props.meta}>
+    <Layout title={`Caveman | ${props.name}`} description={props.meta}>
       <section className="section-default bg-light_burg relative">
         <div className="absolute z-0">
           <Image
