@@ -3,7 +3,6 @@ import Image from "next/image";
 
 // components
 import Layout from "../components/templates/layout";
-import CardTemplate from "../components/templates/cardTemplate";
 
 // calendy
 import ContactButton from "../components/templates/contactButton";
@@ -11,21 +10,14 @@ import ContactButton from "../components/templates/contactButton";
 export default function MarketingPage() {
   return (
     <Layout
-      title="Caveman | Web Development"
-      description="Our Web Development Services include all the dynamics needed to run your business online. For any E-Comm, Service Provider, Consulting, or Small Business our websites will display your business in an elegant professional way that will blow your customers and clients away! We specialize in Jamstack, Landing Pages, CMS, Next.js, Gatsby.js, React.js, Javascript, AWS, E-commerce, Shopify, Big Commerce, Static, Responsive, Dynamic, Server Side Rendering, Static Site Generator."
+      title="Caveman | Marketing"
+      description="Our Marketing Services are for any sized Business that wants to grow their revenue. No matter if the goal is to Gain Leads, Spread the Word, or Gain Clients. Our personalized Marketing Campaign Management that is tailored to your business needs will grow your company effectively. We specialize in Google Advertising Services, Pay Per Click Campaigns, Social Media Marketing, and Local Service Advertising."
     >
-      <section className="section-default bg-dark items-start pt-24 phone:pb-20">
-        <div className="fixed bottom-0 right-0 left-0 z-0">
-          <Image
-            src="/images/wave.svg"
-            alt="background waves for design stuffs"
-            unsized
-          />
-        </div>
-        <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center z-10">
-          <div className="text-white text-center max-w-96 mx-auto">
+      <section className="bg-dark items-start py-32">
+        <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center z-20">
+          <div className="text-white text-center max-w-100 mx-auto text-xl phone:text-lg">
             <h1
-              className="text-5xl font-bold mb-8"
+              className="text-5xl font-bold mb-8 text-center phone:text-3xl"
               data-aos="fade-down"
               data-aos-delay="100"
               data-aos-duration="500"
@@ -35,6 +27,7 @@ export default function MarketingPage() {
               Our Web Services
             </h1>
             <p
+              className="mb-12"
               data-aos="fade-down"
               data-aos-delay="200"
               data-aos-duration="500"
@@ -47,50 +40,57 @@ export default function MarketingPage() {
               design and development to create a website that delivers value to
               you and your customers.
             </p>
+            <span
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-duration="500"
+              data-aos-easing="ease"
+              data-aos-once="true"
+            >
+              <ContactButton classes="rounded-lg bg-white text-dark hover:opacity-25 duration-300 cursor-pointer px-8 py-2 ">
+                Schedule a 15 mintue Consultaion Now
+              </ContactButton>
+            </span>
           </div>
-          <span
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-duration="500"
-            data-aos-easing="ease"
-            data-aos-once="true"
-          >
-            <ContactButton classes="rounded-lg bg-white hover:opacity-25 duration-300 cursor-pointer px-8 py-2 ">
-              Schedule a 15 mintue Consultaion Now
-            </ContactButton>
-          </span>
-          <div className="flex flex-wrap justify-around w-full">
-            <span
-              data-aos="fade-down"
-              data-aos-delay="400"
-              data-aos-duration="500"
-              data-aos-easing="ease"
-              data-aos-once="true"
-            >
-              <CardTemplate
-                classes="max-w-84 w-full mb-8 bg-white text-dark "
-                title="E-comerce & Static Solutions"
-                info={[
-                  "If you have a Shopify or WordPress site and are looking for a tune up, or if you're starting from scratch, our team will work side by side with you to make sure the platform you use is optimized for your business.",
-                  "We can create anything from site speed optimizations to Shopify apps.",
-                ]}
-              />
-            </span>
-            <span
-              data-aos="fade-down"
-              data-aos-delay="500"
-              data-aos-duration="500"
-              data-aos-easing="ease"
-              data-aos-once="true"
-            >
-              <CardTemplate
-                classes="max-w-84 w-full mb-8 bg-white text-dark"
-                title="Custom Solutions"
-                info={[
-                  "Caveman Consulting Co. works within the Jamstack to create powerful web applications. Apart from the web, we can make anything under the sun with Javascript. Whether it be for web, mobile, or desktop a solution exists, and is within your reach.",
-                ]}
-              />
-            </span>
+        </div>
+      </section>
+      <section className="bg-light_burg text-tone py-24">
+        <div
+          className="container px-10 mx-auto text-xl phone:text-lg"
+          data-aos="fade"
+        >
+          <div className="max-w-96 ">
+            <h2 className="text-3xl phone:text:2xl font-bold uppercase mb-6">
+              E-comerce & Static Solutions
+            </h2>
+            <p className="mb-4">
+              If you have a Shopify or WordPress site and are looking for a tune
+              up, or if you're starting from scratch, our team will work side by
+              side with you to make sure the platform you use is optimized for
+              your business.
+            </p>
+            <p>
+              We can create anything from site speed optimizations to Shopify
+              apps.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="bg-tone text-light_burg py-24">
+        <div
+          className="container px-10 mx-auto text-xl phone:text-lg"
+          data-aos="fade"
+        >
+          <div className="max-w-96">
+            <h2 className="text-3xl phone:text:2xl font-bold uppercase mb-6">
+              Custom Solutions
+            </h2>
+            <p>
+              Caveman Consulting Co. works within the Jamstack to create
+              powerful web applications. Apart from the web, we can make
+              anything under the sun with Javascript. Whether it be for web,
+              mobile, or desktop a solution exists, and is within your reach.
+            </p>
           </div>
         </div>
       </section>

@@ -61,6 +61,7 @@ module.exports = {
         84: "29rem",
         88: "35rem",
         96: "45rem",
+        100: "50rem",
         "screen-1xl": "1440px",
       },
       maxHeight: {

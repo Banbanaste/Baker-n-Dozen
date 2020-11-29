@@ -7,18 +7,19 @@ import ContactBtn from "../templates/contactButton";
 
 export default function Nav(props) {
   return (
-    <nav className="w-full phone:hidden fixed top-0 z-50 py-1 bg-dark">
+    <nav className="w-full phone:hidden fixed top-0 z-50 py-2 bg-dark">
       <div className="flex justify-between items-center uppercase text-white tracking-widest text-sm font-bold w-88 mx-auto">
         <Link href="/">
           <a className="">
-            <Image
+            {/* <Image
               src="/images/logo_icon.png"
               alt="Caveman Consulting Co. Logo"
               height="45"
               width="45"
               priority
               loading="eager"
-            />
+            /> */}
+            Home
           </a>
         </Link>
         <Link href="/marketing">Marketing</Link>
