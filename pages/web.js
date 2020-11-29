@@ -10,8 +10,8 @@ import ContactButton from "../components/templates/contactButton";
 export default function MarketingPage() {
   return (
     <Layout
-      title="Caveman | Marketing"
-      description="Our Marketing Services are for any sized Business that wants to grow their revenue. No matter if the goal is to Gain Leads, Spread the Word, or Gain Clients. Our personalized Marketing Campaign Management that is tailored to your business needs will grow your company effectively. We specialize in Google Advertising Services, Pay Per Click Campaigns, Social Media Marketing, and Local Service Advertising."
+      title="Caveman | Web Development"
+      description="Our Web Development Services include all the dynamics needed to run your business online. For any E-Comm, Service Provider, Consulting, or Small Business our websites will display your business in an elegant professional way that will blow your customers and clients away! We specialize in Jamstack, Landing Pages, CMS, Next.js, Gatsby.js, React.js, Javascript, AWS, E-commerce, Shopify, Big Commerce, Static, Responsive, Dynamic, Server Side Rendering, Static Site Generator."
     >
       <section className="bg-dark items-start py-32">
         <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center z-20">
