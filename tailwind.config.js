@@ -75,6 +75,10 @@ module.exports = {
       borderWidth: {
         15: "15px",
       },
+      margin: {
+        700: "700px",
+        500: "500px",
+      },
     },
   },
   variants: {},

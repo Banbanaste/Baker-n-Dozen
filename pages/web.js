@@ -13,9 +13,18 @@ export default function MarketingPage() {
       title="Caveman | Web Development"
       description="Our Web Development Services include all the dynamics needed to run your business online. For any E-Comm, Service Provider, Consulting, or Small Business our websites will display your business in an elegant professional way that will blow your customers and clients away! We specialize in Jamstack, Landing Pages, CMS, Next.js, Gatsby.js, React.js, Javascript, AWS, E-commerce, Shopify, Big Commerce, Static, Responsive, Dynamic, Server Side Rendering, Static Site Generator."
     >
-      <section className="bg-dark items-start py-32">
+      <section
+        style={{
+          background: "url('images/cave_bg.svg')",
+          backgroundColor: "#FAFAFA",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+        className="items-start py-32"
+      >
         <div className="container mx-auto pt-6 space-y-16 flex flex-col justify-center items-center z-20">
-          <div className="text-white text-center max-w-100 mx-auto text-xl phone:text-lg">
+          <div className="text-dark text-center max-w-100 mx-auto text-xl phone:text-lg">
             <h1
               className="text-5xl font-bold mb-8 text-center phone:text-3xl"
               data-aos="fade-down"
@@ -47,14 +56,14 @@ export default function MarketingPage() {
               data-aos-easing="ease"
               data-aos-once="true"
             >
-              <ContactButton classes="rounded-lg bg-white text-dark hover:opacity-25 duration-300 cursor-pointer px-8 py-2 ">
-                Schedule a 15 mintue Consultaion Now
+              <ContactButton classes="rounded-lg bg-dark text-white hover:opacity-25 duration-300 cursor-pointer px-8 py-2 ">
+                Schedule a Consultaion Now
               </ContactButton>
             </span>
           </div>
         </div>
       </section>
-      <section className="bg-light_burg text-tone py-24">
+      <section className="text-light bg-light_burg py-24">
         <div
           className="container px-10 mx-auto text-xl phone:text-lg"
           data-aos="fade"
@@ -76,7 +85,7 @@ export default function MarketingPage() {
           </div>
         </div>
       </section>
-      <section className="bg-tone text-light_burg py-24">
+      <section className="bg-tone text-dark py-24">
         <div
           className="container px-10 mx-auto text-xl phone:text-lg"
           data-aos="fade"
