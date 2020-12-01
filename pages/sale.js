@@ -13,14 +13,9 @@ export default function MarketingPage() {
       title="Caveman | Black Friday"
       description="Black Friday Sale! Get a Free Landing Page with any Marketing Campaign. Save $500 Today! Book a 15 minute consultation! Sale Ends 12/4/2020."
     >
-      <section
-        className="section-default flex-col pt-24"
-        style={{
-          background: "url(/images/confetti.gif)",
-        }}
-      >
+      <section className="section-default flex-col pt-24">
         <div className="container">
-          <div data-aos="fade" className="text-center mb-10 bg-white rounded">
+          <div data-aos="fade" className="text-center mb-10 ">
             <h2 className="text-xl text-gray-700 mb-2">ENDS 12/04</h2>
             <h1 className="text-5xl font-bold text-dark mb-4">
               BLACK FRIDAY SALE

@@ -17,7 +17,6 @@ export default function LandingPage() {
           alt="Ooh a Bison"
           height="1066"
           width="677"
-          layout="intrinsic"
           priority
         />
       </div>
@@ -48,7 +47,7 @@ export default function LandingPage() {
             </span>
             <div>
               <span className="duration-300 ease hover:opacity-50 font-bold ">
-                <Link href="/#about">More Info</Link>
+                <Link href="/#what">More Info</Link>
               </span>
             </div>
           </div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="613px" height="171px" viewBox="0 0 613 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="graphics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-269.000000, -1067.000000)">
+            <g id="Group-2" transform="translate(269.000000, 1067.000000)">
+                <circle id="Oval" fill="#8E1C39" cx="85.5" cy="85.5" r="85.5"></circle>
+                <text id="Speed-Optimized" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" line-spacing="32.5" fill="#FAFAFA">
+                    <tspan x="43.725" y="77">Speed</tspan>
+                    <tspan x="16.275" y="109.5">Optimized</tspan>
+                </text>
+                <circle id="Oval" fill="#8E1C39" cx="306.5" cy="85.5" r="85.5"></circle>
+                <text id="Integrated-Analytics" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" line-spacing="32.5" fill="#FAFAFA">
+                    <tspan x="236.225" y="80">Integrated</tspan>
+                    <tspan x="246.0375" y="112.5">Analytics </tspan>
+                </text>
+                <circle id="Oval" fill="#8E1C39" cx="527.5" cy="85.5" r="85.5"></circle>
+                <text id="Tailored-Solutions" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" line-spacing="32.5" fill="#FAFAFA">
+                    <tspan x="473.525" y="80">Tailored</tspan>
+                    <tspan x="467.1125" y="112.5">Solutions </tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
