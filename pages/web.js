@@ -63,46 +63,60 @@ export default function MarketingPage() {
           </div>
         </div>
       </section>
-      <section className="text-light bg-light_burg py-24">
-        <div
-          className="container px-10 mx-auto text-xl phone:text-lg"
-          data-aos="fade"
-        >
-          <div className="max-w-96 ">
-            <h2 className="text-3xl phone:text:2xl font-bold uppercase mb-6">
-              E-comerce & Static Solutions
-            </h2>
-            <p className="mb-4">
-              If you have a Shopify or WordPress site and are looking for a tune
-              up, or if you're starting from scratch, our team will work side by
-              side with you to make sure the platform you use is optimized for
-              your business.
-            </p>
-            <p>
-              We can create anything from site speed optimizations to Shopify
-              apps.
-            </p>
+
+      <div className="relative">
+        <section className="text-light bg-light_burg py-24">
+          <div
+            className="container px-10 mx-auto text-xl phone:text-lg"
+            data-aos="fade"
+          >
+            <div className="max-w-96 mx-auto text-center mb-16 phone:mb-0">
+              <h2 className="text-3xl phone:text:2xl font-bold uppercase mb-6">
+                E-comerce & Static Solutions
+              </h2>
+              <p className="mb-4">
+                If you have a Shopify or WordPress site and are looking for a
+                tune up, or if you're starting from scratch, our team will work
+                side by side with you to make sure the platform you use is
+                optimized for your business.
+              </p>
+              <p>
+                We can create anything from site speed optimizations to Shopify
+                apps.
+              </p>
+            </div>
+          </div>
+        </section>
+        <div className="absolute flex justify-around h-full w-full items-center bottom-0 lg:justify-center ">
+          <div className="phone:w-72 phone:-mb-20">
+            <Image
+              className=""
+              src="/images/web_graphic.svg"
+              alt="Marketing infographic"
+              height="171"
+              width="613"
+            />
           </div>
         </div>
-      </section>
-      <section className="bg-tone text-dark py-24">
-        <div
-          className="container px-10 mx-auto text-xl phone:text-lg"
-          data-aos="fade"
-        >
-          <div className="max-w-96">
-            <h2 className="text-3xl phone:text:2xl font-bold uppercase mb-6">
-              Custom Solutions
-            </h2>
-            <p>
-              Caveman Consulting Co. works within the Jamstack to create
-              powerful web applications. Apart from the web, we can make
-              anything under the sun with Javascript. Whether it be for web,
-              mobile, or desktop a solution exists, and is within your reach.
-            </p>
+        <section className="bg-tone text-dark py-24">
+          <div
+            className="container px-10 mx-auto text-xl phone:text-lg"
+            data-aos="fade"
+          >
+            <div className="max-w-96 mx-auto text-center mt-16 phone:mt-0">
+              <h2 className="text-3xl phone:text:2xl font-bold uppercase mb-6">
+                Custom Solutions
+              </h2>
+              <p>
+                Caveman Consulting Co. works within the Jamstack to create
+                powerful web applications. Apart from the web, we can make
+                anything under the sun with Javascript. Whether it be for web,
+                mobile, or desktop a solution exists, and is within your reach.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </Layout>
   );
 }
