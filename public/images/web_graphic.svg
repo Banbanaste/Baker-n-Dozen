@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1226px" height="342px" viewBox="0 0 1226 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="613px" height="171px" viewBox="0 0 613 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group 2</title>
     <g id="graphics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" transform="translate(-269.000000, -1067.000000)">
             <g id="Group-2" transform="translate(269.000000, 1067.000000)">
-                <circle id="Oval" fill="#8E1C39" cx="171" cy="171" r="171"></circle>
-                <text id="Speed-Optimized" font-family="Futura-Bold, Futura" font-size="50" font-weight="bold" line-spacing="65" fill="#FAFAFA">
-                    <tspan x="87.5855105" y="153.5">Speed</tspan>
-                    <tspan x="32.6855105" y="218.5">Optimized</tspan>
+                <circle id="Oval" fill="#8E1C39" cx="85.5" cy="85.5" r="85.5"></circle>
+                <text id="Speed-Optimized" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" line-spacing="32.5" fill="#FAFAFA">
+                    <tspan x="43.725" y="77">Speed</tspan>
+                    <tspan x="16.275" y="109.5">Optimized</tspan>
                 </text>
-                <circle id="Oval" fill="#8E1C39" cx="613" cy="171" r="171"></circle>
-                <text id="Integrated-Analytics" font-family="Futura-Bold, Futura" font-size="50" font-weight="bold" line-spacing="65" fill="#FAFAFA">
-                    <tspan x="472.58551" y="159.5">Integrated</tspan>
-                    <tspan x="492.21051" y="224.5">Analytics </tspan>
+                <circle id="Oval" fill="#8E1C39" cx="306.5" cy="85.5" r="85.5"></circle>
+                <text id="Integrated-Analytics" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" line-spacing="32.5" fill="#FAFAFA">
+                    <tspan x="236.225" y="80">Integrated</tspan>
+                    <tspan x="246.0375" y="112.5">Analytics </tspan>
                 </text>
-                <circle id="Oval" fill="#8E1C39" cx="1055" cy="171" r="171"></circle>
-                <text id="Tailored-Solutions" font-family="Futura-Bold, Futura" font-size="50" font-weight="bold" line-spacing="65" fill="#FAFAFA">
-                    <tspan x="946.18551" y="159.5">Tailored</tspan>
-                    <tspan x="933.36051" y="224.5">Solutions </tspan>
+                <circle id="Oval" fill="#8E1C39" cx="527.5" cy="85.5" r="85.5"></circle>
+                <text id="Tailored-Solutions" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" line-spacing="32.5" fill="#FAFAFA">
+                    <tspan x="473.525" y="80">Tailored</tspan>
+                    <tspan x="467.1125" y="112.5">Solutions </tspan>
                 </text>
             </g>
         </g>
