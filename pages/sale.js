@@ -34,7 +34,7 @@ export default function MarketingPage() {
           </div>
         </section>
         <div className="w-full py-12 flex flex-wrap justify-around items-center px-10">
-          <div className="w-7/12 phone:w-11/12">
+          <div className="w-88 phone:w-11/12">
             <Image
               src="/images/landing1.png"
               alt="Landing Page Example"
