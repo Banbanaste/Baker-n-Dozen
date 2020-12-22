@@ -34,7 +34,9 @@ export default function BottomNav(props) {
           <Link href="/">Home</Link>
           <Link href="/marketing">Marketing</Link>
           <Link href="/web">Web</Link>
-          <ContactBtn classes="cursor-pointer">Contact</ContactBtn>
+          <a className="cursor-pointer" onClick={() => props.setShowMenu(true)}>
+            Contact
+          </a>
         </div>
       </nav>
     </div>

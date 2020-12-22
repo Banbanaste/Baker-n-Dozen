@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 // Next.js libraries
 import Head from "next/head";
@@ -6,11 +6,13 @@ import Head from "next/head";
 // components
 import Nav from "../nav/nav";
 import MobileNav from "../nav/mobileNav";
+import Form from "../contact/form";
 
 // google analytics
 import { logPageView } from "../../utils/analytics";
 
 export default function IndexPage({ title, description, isLanding, children }) {
+  const [showMenu, setShowMenu] = useState(false);
   useEffect(() => {
     window.GA_INITIALIZED && logPageView();
   }, []);
@@ -39,11 +41,12 @@ export default function IndexPage({ title, description, isLanding, children }) {
       </Head>
       {!isLanding && (
         <>
-          <Nav />
-          <MobileNav />
+          <Nav setShowMenu={setShowMenu} />
+          <MobileNav setShowMenu={setShowMenu} />
         </>
       )}
       {children}
+      <Form show={showMenu} setShowMenu={setShowMenu} />
     </div>
   );
 }

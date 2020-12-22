@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 // calendly
-import ContactBtn from "../templates/contactButton";
+// import ContactBtn from "../templates/contactButton";
 
-export default function LandingPage() {
+export default function LandingPage({ setShowMenu }) {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
@@ -41,9 +41,15 @@ export default function LandingPage() {
           </p>
           <div className="w-full flex flex-wrap">
             <span className=" mr-10 mb-6">
-              <ContactBtn classes="duration-300 ease rounded-lg px-8 phone:px-4 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 ">
+              {/* <ContactBtn classes="duration-300 ease rounded-lg px-8 phone:px-4 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 ">
                 Schedule a Consult
-              </ContactBtn>
+              </ContactBtn> */}
+              <a
+                className="duration-300 ease rounded-lg px-8 phone:px-4 py-2 bg-light text-burg cursor-pointer font-bold hover:opacity-50 "
+                onClick={() => setShowMenu(true)}
+              >
+                Contact
+              </a>
             </span>
             <div>
               <span className="duration-300 ease hover:opacity-50 font-bold ">

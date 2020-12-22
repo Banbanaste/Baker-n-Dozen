@@ -25,10 +25,7 @@ export default function SalePage() {
               Free Tailored Landing Page with any Marketing Campaign. $500
               value!
             </h3>
-            <ContactButton
-              classes="bg-light_burg text-light py-2 px-20 text-3xl font-bold rounded-full hover:opacity-50 duration-300 cursor-pointer"
-              sale={true}
-            >
+            <ContactButton classes="bg-light_burg text-light py-2 px-20 text-3xl font-bold rounded-full hover:opacity-50 duration-300 cursor-pointer">
               Book Now
             </ContactButton>
           </div>

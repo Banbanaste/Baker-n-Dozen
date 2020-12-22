@@ -1,11 +1,15 @@
+import React, { useState } from "react";
+
 // components
 import Layout from "../components/templates/layout";
 import LandingPage from "../components/IndexSections/landingPage";
 import InfoSection from "../components/IndexSections/infoSection";
 import AboutSection from "../components/IndexSections/aboutSection";
 import ProjectsSection from "../components/IndexSections/projectsSection";
+import Form from "../components/contact/form";
 
 export default function IndexPage() {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <Layout
       title="Caveman Consulting Co."
@@ -15,11 +19,12 @@ export default function IndexPage() {
         className="bg-landscape bg-center bg-light_burg mx-auto bg-no-repeat"
         style={{ backgroundPositionY: "-140px", backgroundPositionX: "-340px" }}
       >
-        <LandingPage />
+        <LandingPage setShowMenu={setShowMenu} />
         <AboutSection />
         <InfoSection />
         <ProjectsSection />
       </div>
+      <Form show={showMenu} setShowMenu={setShowMenu} />
     </Layout>
   );
 }
