@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section id="who" data-aos="fade">
+    <section id="who" className="relative">
       <div className="section-default mx-auto text-light">
         <div className="">
           <h1 className="section-title phone:mb-4 phone:text-3xl tracking-wide phone:text-left">

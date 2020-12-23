@@ -29,23 +29,19 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const send = ({
-  email,
-  name,
-  text = "Not Provided",
-  phone = "Not Provided",
-  companyName = "Not Provided",
-}) => {
+const send = ({ email, name, text, phone, companyName }) => {
   const from = name && email ? `${name} <${email}>` : `${name || email}`;
   const message = {
     from,
     to: "contact@cavemanconsulting.co",
     subject: `New message from ${from}`,
-    text: `name: ${name}
+    text: `
+    name: ${name}
     email: ${email}
     phone: ${phone}
     company: ${companyName}
-    body: ${text}`,
+    body: ${text}
+    `,
     replyTo: from,
   };
 

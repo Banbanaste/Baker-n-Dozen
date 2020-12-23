@@ -23,7 +23,7 @@ function ContentfulProject(props) {
 
   useEffect(() => {
     setBody(
-      <div className="max-w-96 mx-auto text-left text-2xl phone:text-xl space-y-10 phone:space-y-4">
+      <div className="max-w-96 mx-auto text-left text-2xl phone:text-xl space-y-10 phone:space-y-4 mb-20">
         {props.description.json.content.map((text) => {
           return (
             <p
@@ -45,13 +45,14 @@ function ContentfulProject(props) {
               <div
                 className="w-56 phone:w-full phone:max-w-84 h-72 overflow-hidden mx-4 shadow-xl phone:m-0"
                 data-aos="fade"
+                data-aos-delay="100"
               >
                 <img src={img.url} alt={img.title} />
               </div>
             );
           } else {
             return (
-              <div className="w-full" data-aos="fade">
+              <div className="w-full" data-aos="fade" data-aos-delay="100">
                 <div className="max-w-84 mx-auto phone:m-0 shadow-xl mb-10">
                   <img src={img.url} alt={img.title} />
                 </div>
@@ -66,13 +67,6 @@ function ContentfulProject(props) {
   return (
     <Layout title={`Caveman | ${props.name}`} description={props.meta}>
       <section className="section-default bg-light_burg relative">
-        <div className="absolute z-0">
-          <Image
-            src="/images/proj_bg.svg"
-            alt="background waves for design stuffs"
-            unsized
-          />
-        </div>
         <div className="container mx-auto text-tone min-h-screen pt-32 phone:pt-24 phone:px-4 z-20">
           <div className="max-w-96 mx-auto text-left text-2xl mb-6">
             <span className="flex flex-wrap items-center justify-between">

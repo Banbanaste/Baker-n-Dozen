@@ -26,12 +26,16 @@ export default function Form({ show, setShowMenu }) {
 
   return show ? (
     <>
-      <div className="fixed w-full h-screen flex justify-center items-center top-0 z-50">
+      <div
+        className="fixed w-full h-screen flex justify-center items-center top-0 z-50"
+        data-aos="fade"
+        data-aos-delay="200"
+      >
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col w-72 mx-auto z-50"
+          className="flex flex-col w-72 mx-auto z-50 bg-gray-500 p-8 rounded-lg"
         >
-          <div className="mx-auto absolute w-full left-0 top-0 flex flex-col justify-center items-center space-y-10 mt-10">
+          <div className="transform mx-auto absolute w-full left-0 flex flex-col justify-center items-center space-y-4 -translate-y-32 -mt-4">
             <ErrorMessage
               errors={errors}
               name="name"
@@ -84,7 +88,7 @@ export default function Form({ show, setShowMenu }) {
 
           <input
             type="submit"
-            className="rounded-full py-2 text-lg shadow-xl mb-4 bg-tone font-bold cursor-pointer hover:opacity-75 duration-300"
+            className="rounded-full py-2 text-lg shadow-xl bg-tone font-bold cursor-pointer hover:opacity-75 duration-300"
           />
         </form>
         <div

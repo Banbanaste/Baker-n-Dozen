@@ -18,8 +18,8 @@ app.prepare().then(() => {
   });
 
   server.post("/api/contact", (req, res) => {
-    const { email, name, text } = req.body;
-    mailer({ email, name, text })
+    const { email, name, text, phone, companyName } = req.body;
+    mailer({ email, name, text, phone, companyName })
       .then(() => {
         console.log("SUCCESS");
         res.send("SUCCESS");

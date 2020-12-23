@@ -9,9 +9,9 @@ export default function LandingPage({ setShowMenu }) {
   return (
     <section
       aria-label="Schedule an Appointment to help your business."
-      className="section-default overflow relative"
+      className="section-default overflow relative z-0"
     >
-      <div className="absolute top-0 right-0 pointer-events-none w-7/12 flex justify-end">
+      <div className="absolute top-0 right-0 pointer-events-none w-7/12 flex justify-end z-0">
         <Image
           src="/images/bison.png"
           alt="Ooh a Bison"
