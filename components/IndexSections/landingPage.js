@@ -32,7 +32,7 @@ export default function LandingPage({ setShowMenu }) {
               priority
             />
           </div>
-          <h1 className="text-5xl phone:text-3xl font-bold mb-6 z-10">
+          <h1 className="text-5xl phone:text-3xl font-bold tracking-wide mb-6 z-10">
             Bring your business out of the Stone Age
           </h1>
           <p className="text-3xl phone:text-base font-medium mb-12 z-10">

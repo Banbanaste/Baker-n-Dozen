@@ -7,10 +7,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@hookform/error-message": "^0.0.5",
     "aos": "^3.0.0-beta.6",
     "axios": "^0.21.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "googleapis": "^66.0.0",
     "next": "latest",
     "nodemailer": "^6.4.16",
     "react": "^16.13.1",

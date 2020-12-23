@@ -6,7 +6,7 @@
 }
 
 .section-title {
-  @apply text-5xl font-bold text-center mb-12;
+  @apply text-5xl font-bold text-center mb-12  tracking-wide;
 }
 
 .project-image {
@@ -21,17 +21,27 @@
 
 @font-face {
   font-family: "Futura";
-  src: url("/fonts/Futura/Futura-Medium.ttf");
+  src: url("/fonts/Futura/Futura-Medium.eot");
+  src: url("/fonts/Futura/Futura-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Futura/Futura-Medium.woff2") format("woff2"),
+    url("/fonts/Futura/Futura-Medium.woff") format("woff"),
+    url("/fonts/Futura/Futura-Medium.ttf") format("truetype"),
+    url("/fonts/Futura/Futura-Medium.svg#Futura-Medium") format("svg");
+  font-weight: 500;
   font-style: normal;
-  font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Futura";
-  src: url("/fonts/Futura/Futura-Heavy.ttf");
+  src: url("/fonts/Futura/Futura-Heavy.eot");
+  src: url("/fonts/Futura/Futura-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Futura/Futura-Heavy.woff2") format("woff2"),
+    url("/fonts/Futura/Futura-Heavy.woff") format("woff"),
+    url("/fonts/Futura/Futura-Heavy.ttf") format("truetype"),
+    url("/fonts/Futura/Futura-Heavy.svg#Futura-Heavy") format("svg");
+  font-weight: 900;
   font-style: normal;
-  font-weight: 700;
   font-display: swap;
 }
 

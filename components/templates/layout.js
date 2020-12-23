@@ -26,18 +26,6 @@ export default function IndexPage({ title, description, isLanding, children }) {
         <meta property="og:description" content={description} key="ogdesc" />
         <title>{title}</title>
         <link rel="shortcut icon" href="/images/logo_icon.ico" />
-        <link
-          rel="preload"
-          href="/fonts/Futura/Futura-Medium.ttf"
-          as="font"
-          crossOrigin=""
-        />
-        <link
-          rel="preload"
-          href="/fonts/Futura/Futura-Heavy.ttf"
-          as="font"
-          crossOrigin=""
-        />
       </Head>
       {!isLanding && (
         <>

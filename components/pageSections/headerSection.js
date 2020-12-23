@@ -25,7 +25,7 @@ export default function HeaderSection({
           className={`${textColor} text-center max-w-100 mx-auto text-xl phone:text-lg`}
         >
           <h1
-            className="text-5xl font-bold mb-8 text-center phone:text-3xl"
+            className="text-5xl font-bold mb-8 text-center phone:text-3xl tracking-wide"
             data-aos="fade-down"
             data-aos-delay="100"
             data-aos-duration="500"

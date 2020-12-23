@@ -10,7 +10,7 @@ export default function AnimatedInfoCards() {
     <section className="relative" id="what" data-aos="fade">
       <div className="section-default pt-24 pb-10">
         <div className="max-w-96 text-light">
-          <h1 className="section-title mb-4 phone:mb-4 phone:text-3xl">
+          <h1 className="section-title mb-4 tracking-wide phone:mb-4 phone:text-3xl">
             What We Do
           </h1>
           <InfoIcons />

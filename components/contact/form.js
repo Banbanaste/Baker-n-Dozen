@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 // react-hook-form
 import { useForm } from "react-hook-form";
+import { ErrorMessage } from "@hookform/error-message";
 
 export default function Form({ show, setShowMenu }) {
   // form  init
@@ -30,22 +31,54 @@ export default function Form({ show, setShowMenu }) {
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col w-72 mx-auto z-50"
         >
+          <div className="mx-auto absolute w-full left-0 top-0 flex flex-col justify-center items-center space-y-10 mt-10">
+            <ErrorMessage
+              errors={errors}
+              name="name"
+              render={({ message }) => (
+                <p className="bg-red-500 font-bold p-2 text-white inline-block rounded w-72">
+                  {message}
+                </p>
+              )}
+            />
+            <ErrorMessage
+              errors={errors}
+              name="email"
+              render={({ message }) => (
+                <p className="bg-red-500 font-bold p-2 text-white inline-block rounded w-72">
+                  {message}
+                </p>
+              )}
+            />
+          </div>
           <input
             name="name"
-            ref={register({ requiered: "Please provide your name." })}
-            placeholder="name"
+            ref={register({ required: "Please provide your name." })}
+            placeholder="Name"
             className="rounded-full py-2 pl-4 text-lg shadow-xl mb-4"
           />
           <input
             name="email"
-            ref={register({ requiered: "Please provide a valid email." })}
-            placeholder="email"
+            ref={register({ required: "Please provide a valid email." })}
+            placeholder="eMail"
+            className="rounded-full py-2 pl-4 text-lg shadow-xl mb-4"
+          />
+          <input
+            name="phone"
+            ref={register}
+            placeholder="Phone Number"
+            className="rounded-full py-2 pl-4 text-lg shadow-xl mb-4"
+          />
+          <input
+            name="companyName"
+            ref={register}
+            placeholder="Company Name"
             className="rounded-full py-2 pl-4 text-lg shadow-xl mb-4"
           />
           <textarea
             name="text"
             ref={register}
-            placeholder="please write additional info here"
+            placeholder="Please write additional info here"
             className="rounded-2xl py-2 pl-4 text-lg shadow-xl mb-4 h-32"
           />
 

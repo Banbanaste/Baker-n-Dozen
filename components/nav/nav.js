@@ -15,10 +15,10 @@ export default function Nav(props) {
         <Link href="/web">Web</Link>
         <Link href="/#projects">Projects</Link>
         <a
-          className="transform cursor-pointer bg-light text-light_burg rounded-lg px-4 py-1 duration-300 hover:opacity-50"
+          className="transform cursor-pointer bg-light text-light_burg rounded-lg px-4 py-1 duration-300 hover:opacity-50 flex justify-center items-center"
           onClick={() => props.setShowMenu(true)}
         >
-          Contact
+          <p>Contact</p>
         </a>
         {/* <ContactBtn classes="transform cursor-pointer bg-light text-light_burg rounded-lg px-4 py-1 duration-300 hover:opacity-50">
           Contact
