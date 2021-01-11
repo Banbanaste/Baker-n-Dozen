@@ -19,7 +19,7 @@ export default function AboutSection() {
               stages. Together, we create stunning websites that offer a
               seamless user experience and marketing campaigns. We specialize in
               UX design and web development, along with digital marketing, where
-              collaboration with our clients remains out top priority – all on
+              collaboration with our clients remains our top priority – all on
               your schedule. We help our clients take advantage of the
               technologies and strategies available in today’s world through the
               use of cutting-edge technologies.
