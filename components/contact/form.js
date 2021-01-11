@@ -33,7 +33,7 @@ export default function Form({ show, setShowMenu }) {
       >
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col w-72 mx-auto z-50 bg-gray-500 p-8 rounded-lg"
+          className="flex flex-col w-72 mx-auto z-50 bg-tone py-8 px-4 rounded-lg"
         >
           <div className="transform mx-auto absolute w-full left-0 flex flex-col justify-center items-center space-y-4 -translate-y-32 -mt-4">
             <ErrorMessage
@@ -88,7 +88,7 @@ export default function Form({ show, setShowMenu }) {
 
           <input
             type="submit"
-            className="rounded-full py-2 text-lg shadow-xl bg-tone font-bold cursor-pointer hover:opacity-75 duration-300"
+            className="rounded-full py-2 text-lg text-white shadow-xl bg-light_burg font-bold cursor-pointer hover:opacity-75 duration-300"
           />
         </form>
         <div
